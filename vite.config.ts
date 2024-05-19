@@ -3,11 +3,7 @@ import type { UserConfig } from 'vite';
 import UnoCSS from 'unocss/vite';
 
 const config: UserConfig = {
-	plugins: [UnoCSS(), sveltekit()],
-	build: {
-		outDir: './docs', // relative to index.html
-		// emptyOutDir: true, // true if outDir is inside root. if outDir is not inside root, uncomment this.
-	}
+	plugins: [UnoCSS(), sveltekit()]
 };
 
 export default config;

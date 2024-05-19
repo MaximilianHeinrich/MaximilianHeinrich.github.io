@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const dev = process.argv.includes('dev');
+const base = '/slick-portfolio-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -13,11 +13,18 @@ const config = {
 			showToggleButton: 'always'
 		}
 	},
-
 	kit: {
 		adapter: adapter({ fallback: '404.html' }),
+		alias: {
+			$lib: './src/lib',
+			'@data': './src/lib/data',
+			'@components': './src/lib/components',
+			'@md': './src/lib/md',
+			'@stores': './src/lib/stores',
+			'@utils': './src/lib/utils'
+		},
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH,
+			base: process.env.NODE_ENV === 'production' ? base : ''
 		}
 	}
 };
