@@ -27,7 +27,7 @@ const Assets = {
 	Scrapy: a('scrapy.png'),
 	Selenium: a('selenium.svg'),
 	Docker: a('docker.svg'),
-	Kubernetes: a('kubernetees.svg'),
+	Kubernetes: a('kubernetes-icon.svg'),
 	Csharp: a('csharp.svg'),
 	Xamarin: a('xamarin.svg'),
 	TypeScript: a('ts.png'),
@@ -80,7 +80,15 @@ const Assets = {
 	GetMad: a('getmad.png'),
 	Yaml: a('yaml.svg'),
 	NoRisk: a('norisk.png'),
-	Ktor: a('ktor.svg')
+	Ktor: a('ktor.svg'),
+	Bash: a('gnu_bash-icon.svg'),
+	Git: a('git-scm-icon.svg'),
+	Jenkins: a('jenkins-icon.svg'),
+	Linux: a('linux-ar21.svg'),
+	Postman: a('getpostman-icon.svg'),
+	NMap: a('Nmap.svg'),
+	Maven: a('apache_maven-icon.svg'),
+	Gradle: a('gradle-icon.svg')
 };
 
 export default Assets;

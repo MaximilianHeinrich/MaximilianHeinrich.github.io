@@ -14,6 +14,8 @@
 	import 'prismjs/components/prism-kotlin';
 	import 'prismjs/components/prism-sql';
 	import 'prismjs/components/prism-json';
+	import 'prismjs/components/prism-bash';
+	import 'prismjs/components/prism-groovy';
 	import 'prismjs/themes/prism-tomorrow.css';
 	import { onMount } from 'svelte';
 
