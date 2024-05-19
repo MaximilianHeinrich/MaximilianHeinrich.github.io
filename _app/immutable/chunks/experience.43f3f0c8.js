@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.527cdd1c.js";import{g as t}from"./skills.8a684d06.js";import{C as o}from"./types.1ebf2f37.js";const i=[{slug:"dasshept",company:"DasShept",description:`DasShept has been around since 2022.
+import{A as e}from"./UIcon.41225fec.js";import{g as t}from"./skills.556d1284.js";import{C as o}from"./types.1ebf2f37.js";const i=[{slug:"dasshept",company:"DasShept",description:`DasShept has been around since 2022.
                 contact was through the Mine-Build.de (now Fynncraft.de) server network. There
                 we worked side by side on many large and small projects. After some time, we came up with
                 the idea of DasShept to intensify our friendship and our working relationship. Since then
