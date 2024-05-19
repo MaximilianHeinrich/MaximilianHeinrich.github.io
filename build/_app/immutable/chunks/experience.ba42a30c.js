@@ -1,0 +1,9 @@
+import{A as e}from"./UIcon.db806b4d.js";import{g as t}from"./skills.79b813cb.js";import{C as o}from"./types.1ebf2f37.js";const i=[{slug:"dasshept",company:"DasShept",description:`DasShept has been around since 2022.
+                contact was through the Mine-Build.de (now Fynncraft.de) server network. There
+                we worked side by side on many large and small projects. After some time, we came up with
+                the idea of DasShept to intensify our friendship and our working relationship. Since then
+                one project followed the next, we started with a Fiverr account and sold commissioned work.
+                work, along the way we started our challenge plugin JUtils, which we have been working on ever since.
+                have been working on ever since. Over time, we started working with personalities like Kenjih. If you would like to
+                would like to work with us, please feel free to contact us!
+`,contract:o.SelfEmployed,type:"Software Development",location:"Home",period:{from:new Date(2022,1)},skills:t("java","spring","postgres"),name:"Backend Developer",color:"red",links:[{to:"https://dasshept.de",label:"Website",newTab:!0}],logo:e.DasShept,shortDescription:"Custom Minecraft Solutions for everyone."},{slug:"norisk",company:"Norisk",description:"Currently, there is no set release date. For updates on the current state of the client, check out their discord or NoRisk's YouTube channel.",contract:o.Freelance,type:"Software Development",location:"Home",period:{from:new Date(2023,5,3),to:new Date(2024,0,5)},skills:t("kotlin","java","ktor","json"),name:"Software Developer",color:"blue",links:[{to:"https://github.com/NoriskClient",label:"GitHub"},{to:"https://norisk.gg",label:"Website"}],logo:e.NoRisk,shortDescription:"Minecraft PvP Client"}],a="Experience";export{i,a as t};
