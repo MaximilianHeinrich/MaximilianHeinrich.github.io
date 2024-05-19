@@ -4,214 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/0.e1782ecc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/6.1b281c99.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/7.23422aa7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/8.c6b04c59.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/Banner.79dec521.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/Card.7a6abfc5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/ChipIcon.b03ae438.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/SearchPage.d63b558a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/Banner.aa74d304.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/Card.ac417bf8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/CardDivider.09b854d8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/CardLogo.ffd18bf4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/Chip.ffc220ac.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/ChipIcon.ee0743e5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/CommonPage.27118a8a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/SearchPage.205f58e8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/TabTitle.bdcc5cd4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/UIcon.db806b4d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/app.91f01bb7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/experience.ba42a30c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/home.89bbb548.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/index.0b5e1b5d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/index.28409b7f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/paths.690abcac.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/projects.67452ae4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/scheduler.7a274a43.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/singletons.a5a3dd59.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/skills.79b813cb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/stores.a652d3e1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/types.1ebf2f37.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/app.2090776e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/start.cf97de17.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/0.525fe9b7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/1.a2290c55.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/10.6db8d24b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/11.28f4cd83.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/2.521c2b9d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/3.9bb3a9ac.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/4.49cf1cf0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/5.87d60063.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/6.74b3bf8c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/7.bde7e53a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/8.ec336fdb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/9.d2edd912.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/version.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/education.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/education/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/experience.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/experience/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/experience/dasshept.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/experience/dasshept/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/experience/norisk.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/experience/norisk/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/imgs/jutils-insight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/imgs/shorter-insight1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/imgs/shorter-insight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/imgs/shorter-insight3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/imgs/shorter-insight4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/DasShept.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/GymKoe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/Nmap.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/adonis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/after-effects.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/angular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/apache_maven-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/aws.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/bootstrap.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/celery.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/cpp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/csharp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/css.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/dart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/deno.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/django.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/docker.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/electron.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/fastify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/firebase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/flask.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/flutter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/getmad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/getpostman-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/git-scm-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/gnu_bash-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/go.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/gradle-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/herke-ict-group.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/html.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/illustrator.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/jenkins-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/jest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/json.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/jutils.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/kafka.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/kotlin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/ktor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/kubernetees.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/kubernetes-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/linux-ar21.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/mongodb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/mysql.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/neo4j.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/nest.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/nginx.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/no-img.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/node.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/norisk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/numpy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/nuxt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/pandas.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/photoshop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/postcss.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/postgres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/premiere.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/quasar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/rabbitmq.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/redis.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/rust.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/ruvy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/sass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/scrapy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/selenium.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/springio.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/svelte.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/tailwind.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/unocss.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/vite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/vitest.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/vue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/xamarin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logos/yaml.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/pdf/resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/getmad.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/getmad/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/jutils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/jutils/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/norisk.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/norisk/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/snippets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/snippets/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/urlshorter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/urlshorter/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resume/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/search/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/Gradle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/Gradle/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/Linux.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/Linux/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/Maven.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/Maven/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/bash.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/bash/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/c++.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/c++/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/git.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/git/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/java/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/javascript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/javascript/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/jenkins.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/jenkins/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/json.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/json/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/kotlin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/kotlin/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/ktor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/ktor/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/kubernets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/kubernets/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/mongodb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/mongodb/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/mysql.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/mysql/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/nmap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/nmap/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/postgres.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/postgres/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/postman.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/postman/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/redis.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/redis/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/spring.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/spring/__data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/yaml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/skills/yaml/__data.json" beforeDir="false" />
-    </list>
+    <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -300,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
@@ -333,7 +126,7 @@
       <workItem from="1715800486404" duration="810000" />
       <workItem from="1716025694672" duration="6347000" />
       <workItem from="1716105798499" duration="5704000" />
-      <workItem from="1716122969037" duration="2004000" />
+      <workItem from="1716122969037" duration="2301000" />
     </task>
     <servers />
   </component>
