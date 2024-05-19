@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.41225fec.js";function p(a,...t){const s=Object.assign({},a);return Object.keys(s).forEach(o=>{t.includes(o)&&delete s[o]}),s}const u=`# Introduction to Java
+import{A as e}from"./UIcon.e4c99522.js";function p(a,...t){const s=Object.assign({},a);return Object.keys(s).forEach(o=>{t.includes(o)&&delete s[o]}),s}const u=`# Introduction to Java
 
 Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle Corporation). It was first released in 1995 and has since become one of the most popular programming languages, particularly for building large-scale enterprise applications, web applications, and mobile applications (Android).
 
