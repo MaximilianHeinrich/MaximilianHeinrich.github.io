@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/commits/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfile.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/navbar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <recent name="C:\Users\Max\Documents\Coding\JavaScript\MaximilianHeinrich.github.io\src\routes" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -104,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
       </list>
@@ -143,6 +141,7 @@
       <workItem from="1727437649955" duration="6499000" />
       <workItem from="1727450952394" duration="77000" />
       <workItem from="1727452513833" duration="1895000" />
+      <workItem from="1727515702759" duration="606000" />
     </task>
     <servers />
   </component>
