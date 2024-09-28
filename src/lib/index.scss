@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+	font-family: "Ndot-55";
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url("//de.nothing.tech/cdn/shop/t/5/assets/Ndot-55.otf?v=18522138017450180331657379059");
+}
+
+@font-face {
+	font-family: "NType82";
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url("//de.nothing.tech/cdn/shop/t/5/assets/NType82-Regular.otf?v=166738954582626444901657379049");
+}
 
 :root {
 	--dark-0: #000;
@@ -48,9 +62,12 @@
 	--dark-0-60: rgba(0, 0, 0, 0.6);
 	--light-0-60: rgba(255, 255, 255, 0.6);
 
+	--button-hover: darken(var(--main), 10%);
+	--button-active: var(--accent);
+
 	// fonts
-	--text-f: 'Inter';
-	--title-f: 'Inter';
+	--text-f: 'NType82';
+	--title-f: 'Ndot-55';
 
 	overflow-y: scroll;
 }
@@ -165,7 +182,7 @@ body {
 	--code-interpolation: var(--code-keyword);
 	--code-class-name: var(--secondary-text);
 
-	font-family: 'Space Mono', monospace;
+	font-family: 'NType82';
 	font-size: 14px;
 
 	color: var(--tertiary-text);
