@@ -1,4 +1,4 @@
-import{A as e}from"./assets.b732f828.js";import{g as n}from"./skills.c6b49d56.js";import{b as a}from"./paths.f94220ad.js";const o="JUtils is an easy to use challenge plugin for Minecraft: Java Edition. They include numerous fun and difficult challenges, as well as many settings for a maximum gaming experience. A scripting system is planned for the future, so you can create your own challenges.",s=`Need Next-Level AntiCheat? Then it's time to get GetMad! Is's a powerful high performance AntiCheat with lots of checks and has its own Admin-Control-Panel. 
+import{A as e}from"./assets.31aaf79d.js";import{g as n}from"./skills.48a66f30.js";import{b as a}from"./paths.9ff4491f.js";const o="JUtils is an easy to use challenge plugin for Minecraft: Java Edition. They include numerous fun and difficult challenges, as well as many settings for a maximum gaming experience. A scripting system is planned for the future, so you can create your own challenges.",s=`Need Next-Level AntiCheat? Then it's time to get GetMad! Is's a powerful high performance AntiCheat with lots of checks and has its own Admin-Control-Panel. 
 
 -----
 
