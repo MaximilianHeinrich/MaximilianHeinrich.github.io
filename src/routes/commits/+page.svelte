@@ -112,21 +112,11 @@
 							<div class="flex-1 col gap-2 items-stretch">
 								{#if commit.revoked}
 									<div class="revoked-container">
-										<div class="text-[1.3em]">
-											Repo: <span class="revoked">{toBlockString(commit.repo)}</span>
-										</div>
-										<div>
-											Commit SHA: <span class="revoked">{toBlockString(commit.sha)}</span>
-										</div>
-										<div>
-											Author: <span class="revoked">{toBlockString(commit.authorName)}</span>
-										</div>
-										<div>
-											Date: <span class="revoked">{toBlockString(new Date(commit.date).toLocaleString())}</span>
-										</div>
-										<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">
-											Message: <span class="revoked">{toBlockString(commit.message)}</span>
-										</div>
+										<div class="text-[1.3em]">Repo: <span class="revoked">{toBlockString(commit.repo)}</span></div>
+										<div>Commit SHA: <span class="revoked">{toBlockString(commit.sha)}</span></div>
+										<div>Author: <span class="revoked">{toBlockString(commit.authorName)}</span></div>
+										<div>Date: <span class="revoked">{toBlockString(new Date(commit.date).toLocaleString())}</span></div>
+										<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">Message: <span class="revoked">{toBlockString(commit.message)}</span></div>
 									</div>
 								{:else}
 									<div class="text-[1.3em]">Repo: {commit.repo}</div>
