@@ -23,7 +23,7 @@
 	// Fetches commits from the API
 	async function fetchCommits(page = 0) {
 		try {
-			const response = await fetch(`http://localhost:1337/api/v1/commits/get/all?page=${page}&sorted=true`);
+			const response = await fetch(`https://portfoliocommits.onrender.com/api/v1/commits/get/all?page=${page}&sorted=true`);
 
 			if (!response.ok) {
 				throw new Error(`HTTP error! Status: ${response.status}`);
@@ -34,7 +34,7 @@
 			console.log('Fetched data:', data);
 
 			commits = data as Commit[];  // Type the fetched data as Commit[]
-			const pagesResponse = await fetch(`http://localhost:1337/api/v1/commits/get/pages`);
+			const pagesResponse = await fetch(`https://portfoliocommits.onrender.com/api/v1/commits/get/pages`);
 			if (!pagesResponse.ok) {
 				throw new Error(`HTTP error! Status: ${pagesResponse.status}`);
 			}
