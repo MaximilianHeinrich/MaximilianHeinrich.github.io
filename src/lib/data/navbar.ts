@@ -5,5 +5,7 @@ export const items = [
 	{ title: 'Education', to: '/education', icon: 'i-carbon-education' },
 	// { title: 'Certificates', to: '/certificates', icon: 'i-carbon-certificate' },
 	{ title: 'Resumé', to: '/resume', icon: 'i-carbon-result' },
-	{ title: 'Commits', to: '/commits', icon: 'i-carbon-commit' }
+	{ title: 'Commits', to: '/commits', icon: 'i-carbon-commit' },
+	{ title: 'Imprint', to: '/imprint', icon: 'i-carbon-scales' },
+	{ title: 'Privacy', to: '/privacy', icon: 'i-carbon-policy' }
 ] as const;
