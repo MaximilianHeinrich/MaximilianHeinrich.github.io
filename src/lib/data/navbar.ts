@@ -6,6 +6,7 @@ export const items = [
 	// { title: 'Certificates', to: '/certificates', icon: 'i-carbon-certificate' },
 	{ title: 'Resumé', to: '/resume', icon: 'i-carbon-result' },
 	{ title: 'Commits', to: '/commits', icon: 'i-carbon-commit' },
-	{ title: 'Imprint', to: '/imprint', icon: 'i-carbon-scales' },
-	{ title: 'Privacy', to: '/privacy', icon: 'i-carbon-policy' }
+	// { title: 'Imprint', to: '/imprint', icon: 'i-carbon-scales' },
+	// { title: 'Privacy', to: '/privacy', icon: 'i-carbon-policy' }
+	{ title: 'Publications', to: '/publications', icon: 'i-carbon-document-multiple-01' }
 ] as const;

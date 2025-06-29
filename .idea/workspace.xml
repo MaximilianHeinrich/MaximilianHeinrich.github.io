@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/components/Legal/Legal.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/PublicationCard/PublicationCard.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/data/languages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/data/publications.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/publications/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/publications/[slug]/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/publications/[slug]/+page.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/assets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/assets.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/navbar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/commits/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/commits/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/education/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/education/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/experience/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/imprint/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/imprint/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/privacy/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/privacy/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/projects/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/resume/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/resume/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/skills/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/skills/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +35,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="page.svelte" />
+        <option value="Legal" />
         <option value="TypeScript File" />
+        <option value="PublicationCard" />
       </list>
     </option>
   </component>
@@ -50,29 +71,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/max/Documents/Coding/JavaScript/ubid&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/src/routes/publications",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.build.executor": "Run",
+    "npm.deploy.executor": "Run",
+    "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/publications" />
       <recent name="$PROJECT_DIR$/src/routes/privacy" />
       <recent name="C:\Users\Max\Documents\Coding\JavaScript\MaximilianHeinrich.github.io\src\routes" />
     </key>
@@ -121,7 +144,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -154,6 +177,8 @@
       <workItem from="1727693546378" duration="4927000" />
       <workItem from="1744876797742" duration="2666000" />
       <workItem from="1744879473776" duration="11000" />
+      <workItem from="1751146377421" duration="619000" />
+      <workItem from="1751183157472" duration="6596000" />
     </task>
     <servers />
   </component>

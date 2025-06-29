@@ -88,7 +88,10 @@ const Assets = {
 	Postman: a('getpostman-icon.svg'),
 	NMap: a('Nmap.svg'),
 	Maven: a('apache_maven-icon.svg'),
-	Gradle: a('gradle-icon.svg')
+	Gradle: a('gradle-icon.svg'),
+	MdBook: a('mdbook.png'),
+	German: a('germany.png'),
+	English: a('britain.png'),
 };
 
 export default Assets;

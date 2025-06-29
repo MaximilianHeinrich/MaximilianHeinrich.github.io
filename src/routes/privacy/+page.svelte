@@ -3,6 +3,7 @@
 
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
+	import LegalLinks from '@components/Legal/Legal.svelte';
 </script>
 
 <CommonPage {title}>
@@ -16,6 +17,7 @@
 		{/if}
 	</div>
 </CommonPage>
+<LegalLinks />
 
 <style lang="scss">
 	.resume {

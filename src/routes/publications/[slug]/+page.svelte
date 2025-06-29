@@ -1,52 +1,54 @@
 <script lang="ts">
-	import { items, title } from '@data/projects';
-	import * as skills from '@data/skills';
+	import { items, title } from '@data/publications';
+	import * as languages from '@data/languages';
 	import { onMount } from 'svelte';
 
-	import type { Project, Skill } from '$lib/types';
+	import type { Publication, Language } from '$lib/types';
 
 	import Chip from '$lib/components/Chip/Chip.svelte';
-	import ProjectCard from '$lib/components/ProjectCard/ProjectCard.svelte';
+	import PublicationCard from '@components/PublicationCard/PublicationCard.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import LegalLinks from '@components/Legal/Legal.svelte';
 
-	interface SkillFilter extends Skill {
+	interface LanguageFilter extends Language {
 		isSelected?: boolean;
 	}
 
-	let filters: Array<SkillFilter> = skills.items.filter((it) => {
-		return items.some((project) => project.skills.some((skill) => skill.slug === it.slug));
+	// Only include filters that are used in at least one publication
+	let filters: Array<LanguageFilter> = languages.languages.filter((lang) => {
+		return items.some((publication) =>
+			publication.language.some((used) => used.slug === lang.slug)
+		);
 	});
 
 	let search = '';
-	let displayed: Array<Project> = [];
+	let displayed: Array<Publication> = [];
 
 	const isSelected = (slug: string): boolean => {
 		return filters.some((item) => item.slug === slug && item.isSelected);
 	};
 
 	const onSelected = (slug: string) => {
-		filters = filters.map((tech) => {
-			if (tech.slug === slug) {
-				tech.isSelected = !isSelected(slug);
+		filters = filters.map((lang) => {
+			if (lang.slug === slug) {
+				lang.isSelected = !isSelected(slug);
 			}
-
-			return tech;
+			return lang;
 		});
 	};
 
 	$: {
-		displayed = items.filter((project) => {
+		displayed = items.filter((publication) => {
 			const isFiltered =
 				filters.every((item) => !item.isSelected) ||
-				project.skills.some((tech) =>
-					filters.some((filter) => filter.isSelected && filter.slug === tech.slug)
+				publication.language.some((lang) =>
+					filters.some((filter) => filter.isSelected && filter.slug === lang.slug)
 				);
 
 			const isSearched =
 				search.trim().length === 0 ||
-				project.name.trim().toLowerCase().includes(search.trim().toLowerCase());
+				publication.name.toLowerCase().includes(search.trim().toLowerCase());
 
 			return isFiltered && isSearched;
 		});
@@ -58,12 +60,9 @@
 
 	onMount(() => {
 		const query = location.search;
-
 		if (query) {
 			const queryParams = new URLSearchParams(location.search);
-
 			const item = queryParams.get('item');
-
 			if (item) {
 				search = item;
 			}
@@ -73,12 +72,17 @@
 
 <SearchPage {title} on:search={onSearch}>
 	<div class="projects-filters">
-		{#each filters as tech}
-			<Chip active={tech.isSelected} classes={'text-0.8em'} on:click={() => onSelected(tech.slug)}
-				>{tech.name}</Chip
+		{#each filters as lang}
+			<Chip
+				active={lang.isSelected}
+				classes="text-0.8em"
+				on:click={() => onSelected(lang.slug)}
 			>
+				{lang.name}
+			</Chip>
 		{/each}
 	</div>
+
 	{#if displayed.length === 0}
 		<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
 			<UIcon icon="i-carbon-cube" classes="text-3.5em" />
@@ -86,25 +90,26 @@
 		</div>
 	{:else}
 		<div class="projects-list mt-5">
-			{#each displayed as project}
-				<ProjectCard {project} />
+			{#each displayed as publication}
+				<PublicationCard publication={publication} />
 			{/each}
 		</div>
 	{/if}
 </SearchPage>
+
 <LegalLinks />
 
 <style lang="scss">
-	.projects-list {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 20px;
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 
-		@media (max-width: 1350px) {
-			grid-template-columns: repeat(2, 1fr);
-		}
-		@media (max-width: 850px) {
-			grid-template-columns: repeat(1, 1fr);
-		}
-	}
+    @media (max-width: 1350px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 850px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 </style>

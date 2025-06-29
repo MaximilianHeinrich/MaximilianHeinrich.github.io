@@ -8,6 +8,7 @@
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
+	import LegalLinks from '$lib/components/Legal/Legal.svelte';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
@@ -42,4 +43,5 @@
 		</div>
 	</div>
 	<Carrousel items={skills ?? skillsItems} />
+	<LegalLinks />
 </div>

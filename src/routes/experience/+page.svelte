@@ -5,6 +5,7 @@
 	import { items, title } from '@data/experience';
 	import type { Experience } from '$lib/types';
 	import { isBlank } from '@riadh-adrani/utils';
+	import LegalLinks from '@components/Legal/Legal.svelte';
 
 	let result: Array<Experience> = [...items];
 
@@ -54,3 +55,4 @@
 		{/if}
 	</div>
 </SearchPage>
+<LegalLinks />

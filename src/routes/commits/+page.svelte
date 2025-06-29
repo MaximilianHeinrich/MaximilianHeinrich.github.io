@@ -3,6 +3,7 @@
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import { onMount } from 'svelte';
+	import LegalLinks from '@components/Legal/Legal.svelte';
 
 	// Define the structure of a commit object
 	interface Commit {
@@ -142,6 +143,7 @@
 		</div>
 	</div>
 </SearchPage>
+<LegalLinks />
 
 <style>
     .pagination-controls {

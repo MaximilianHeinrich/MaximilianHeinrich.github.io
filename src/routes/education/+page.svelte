@@ -8,6 +8,7 @@
 	import { title, items } from '@data/education';
 	import type { Education } from '$lib/types';
 	import { getTimeDiff } from '$lib/utils';
+	import LegalLinks from '@components/Legal/Legal.svelte';
 
 	let search = '';
 
@@ -78,3 +79,4 @@
 		{/if}
 	</div>
 </SearchPage>
+<LegalLinks />

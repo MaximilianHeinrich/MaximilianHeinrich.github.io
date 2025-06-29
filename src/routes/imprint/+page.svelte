@@ -2,6 +2,7 @@
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import { titleSuffix } from '@data/app';
 	import { useTitle } from '$lib/utils/helpers';
+	import LegalLinks from '@components/Legal/Legal.svelte';
 
 	const title = 'Imprint';
 
@@ -63,3 +64,4 @@
 		</p>
 	</div>
 </div>
+<LegalLinks />

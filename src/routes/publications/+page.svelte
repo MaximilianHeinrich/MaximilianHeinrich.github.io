@@ -1,26 +1,26 @@
 <script lang="ts">
-	import { items, title } from '@data/projects';
-	import * as skills from '@data/skills';
+	import { items, title } from '@data/publications';
+	import * as skills from '@data/publications';
 	import { onMount } from 'svelte';
 
-	import type { Project, Skill } from '$lib/types';
+	import type { Publication, Language } from '$lib/types';
 
 	import Chip from '$lib/components/Chip/Chip.svelte';
-	import ProjectCard from '$lib/components/ProjectCard/ProjectCard.svelte';
+	import PublicationCard from '@components/PublicationCard/PublicationCard.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import LegalLinks from '@components/Legal/Legal.svelte';
 
-	interface SkillFilter extends Skill {
+	interface LanguageFilter extends Language {
 		isSelected?: boolean;
 	}
 
-	let filters: Array<SkillFilter> = skills.items.filter((it) => {
-		return items.some((project) => project.skills.some((skill) => skill.slug === it.slug));
+	let filters: Array<LanguageFilter> = skills.items.filter((it) => {
+		return items.some((project) => project.language.some((lang) => lang.slug === it.slug));
 	});
 
 	let search = '';
-	let displayed: Array<Project> = [];
+	let displayed: Array<Publication> = [];
 
 	const isSelected = (slug: string): boolean => {
 		return filters.some((item) => item.slug === slug && item.isSelected);
@@ -40,8 +40,8 @@
 		displayed = items.filter((project) => {
 			const isFiltered =
 				filters.every((item) => !item.isSelected) ||
-				project.skills.some((tech) =>
-					filters.some((filter) => filter.isSelected && filter.slug === tech.slug)
+				project.language.some((lang) =>
+					filters.some((filter) => filter.isSelected && filter.slug === lang.slug)
 				);
 
 			const isSearched =
@@ -87,7 +87,7 @@
 	{:else}
 		<div class="projects-list mt-5">
 			{#each displayed as project}
-				<ProjectCard {project} />
+				<PublicationCard publication={project} />
 			{/each}
 		</div>
 	{/if}

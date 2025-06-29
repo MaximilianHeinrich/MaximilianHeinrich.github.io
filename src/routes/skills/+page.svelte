@@ -6,6 +6,7 @@
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import Card from '$lib/components/Card/Card.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
+	import LegalLinks from '@components/Legal/Legal.svelte';
 
 	let result = groupByCategory('');
 
@@ -51,3 +52,4 @@
 		</div>
 	{/if}
 </SearchPage>
+<LegalLinks />
