@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Legal/Legal.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/PublicationCard/PublicationCard.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/data/languages.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/data/publications.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/publications/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/publications/[slug]/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/publications/[slug]/+page.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/assets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/assets.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/navbar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/commits/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/commits/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/education/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/education/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/experience/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/imprint/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/imprint/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/privacy/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/privacy/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/resume/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/resume/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/skills/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/skills/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/publications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/publications.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +160,7 @@
       <workItem from="1744876797742" duration="2666000" />
       <workItem from="1744879473776" duration="11000" />
       <workItem from="1751146377421" duration="619000" />
-      <workItem from="1751183157472" duration="6596000" />
+      <workItem from="1751183157472" duration="7150000" />
     </task>
     <servers />
   </component>

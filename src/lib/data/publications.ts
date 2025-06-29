@@ -17,7 +17,7 @@ export const items: Array<Publication> = [
 			from: new Date(2025, 1, 6)
 		},
 		language: getLanguages('ger'),
-		type: 'Paper',
+		type: 'Theoretical paper',
 		screenshots: []
 	}
 ];
