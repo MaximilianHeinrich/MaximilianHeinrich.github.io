@@ -13,7 +13,8 @@ export const items: Array<Project> = [
 		description: jutils,
 		shortDescription:
 			'Equity research on BMW AG covering financials, valuation, and peer comparison.',
-		links: [{ to: '/pdf/bmw.pdf', label: 'Download', newTab: true }],
+		// links: [{ to: '/pdf/bmw.pdf', label: 'Download', newTab: true }],
+		links: [{ to: '', label: 'Download', newTab: true }],
 		logo: Assets.Report,
 		name: 'BMW AG',
 		period: {
@@ -39,7 +40,8 @@ export const items: Array<Project> = [
 		description: jutils,
 		shortDescription:
 			'Equity research on Allianz SE covering financials, valuation, and peer comparison.',
-		links: [{ to: '/pdf/allianz.pdf', label: 'Download', newTab: true }],
+		// links: [{ to: '/pdf/allianz.pdf', label: 'Download', newTab: true }],
+		links: [{ to: '', label: 'Download', newTab: true }],
 		logo: Assets.Report,
 		name: 'Allianz SE',
 		period: {

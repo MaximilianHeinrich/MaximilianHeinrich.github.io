@@ -5,44 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Credits/Credits.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/data/publicationTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Card/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Card/Card.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Carrousel/Carrousel.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Carrousel/Carrousel.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ExperienceCard/ExperienceCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ExperienceCard/ExperienceCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Legal/Legal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Legal/Legal.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/NavMenu/NavMenu.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/NavMenu/NavMenu.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ProjectCard/ProjectCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ProjectCard/ProjectCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/PublicationCard/PublicationCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/PublicationCard/PublicationCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/assets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/assets.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/education.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/education.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/data/experience.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/experience.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/navbar.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/projects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/resume.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/resume.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/skills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/skills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/commits/+page.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/education/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/education/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/experience/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/experience/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/[slug]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/imprint/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/imprint/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/privacy/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/privacy/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/[slug]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/publications/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/publications/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/resume/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/resume/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/skills/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/skills/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/skills/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/skills/[slug]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/logos/no-img.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/logos/python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/pdf/resume.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,61 +95,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="3.27791311158101E-17" />
-      <entry key="MS500" value="5.048002160646753E-4" />
-      <entry key="S2" value="0.15257630246993648" />
-      <entry key="S5" value="0.5617199729250338" />
-      <entry key="S10" value="0.9912087392032966" />
-      <entry key="S30" value="1.8744768507471268" />
-      <entry key="S60" value="3.3559746388082887" />
-      <entry key="M2" value="6.370730031889761" />
-      <entry key="M5" value="13.684575208578906" />
-      <entry key="M10" value="22.43602422022712" />
-      <entry key="M15" value="29.432596021675124" />
-      <entry key="M30" value="45.992100349673144" />
-      <entry key="H1" value="71.97023974898212" />
-      <entry key="H2" value="109.02680854406559" />
-      <entry key="H4" value="147.12862862878293" />
-      <entry key="D1" value="200.64103132010717" />
-      <entry key="W1" value="212.85620695899755" />
+      <entry key="MS100" value="1.0738120413393457" />
+      <entry key="MS500" value="1.593779833036705" />
+      <entry key="S2" value="1.8778217976095193" />
+      <entry key="S5" value="1.9492105233094785" />
+      <entry key="S10" value="1.9742743573088017" />
+      <entry key="S30" value="1.9913501821452604" />
+      <entry key="S60" value="1.9956656980388034" />
+      <entry key="M2" value="1.9978558484900302" />
+      <entry key="M5" value="2.0937916337269997" />
+      <entry key="M10" value="3.8655736821007562" />
+      <entry key="M15" value="7.60769702018142" />
+      <entry key="M30" value="22.075635805774258" />
+      <entry key="H1" value="49.549602077935035" />
+      <entry key="H2" value="90.61972978008949" />
+      <entry key="H4" value="134.64649455396082" />
+      <entry key="D1" value="199.20572553062826" />
+      <entry key="W1" value="214.331709969885" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000002247" />
-      <entry key="S10" value="1.0000004740360124" />
-      <entry key="S30" value="1.007810145187999" />
-      <entry key="S60" value="1.1030496696117913" />
-      <entry key="M2" value="1.8947615920105123" />
-      <entry key="M5" value="7.7405791329118445" />
-      <entry key="M10" value="15.862854540219304" />
-      <entry key="M15" value="20.944274785215804" />
-      <entry key="M30" value="29.220257266543182" />
-      <entry key="H1" value="38.09302956644692" />
-      <entry key="H2" value="49.026023492118526" />
-      <entry key="H4" value="59.875730820450556" />
-      <entry key="D1" value="74.96177485141958" />
-      <entry key="W1" value="78.39720968856867" />
+      <entry key="MS100" value="5.1409098797595316E-250" />
+      <entry key="MS500" value="1.3874201516774404E-50" />
+      <entry key="S2" value="3.432037302719797E-13" />
+      <entry key="S5" value="1.0332866058591167E-5" />
+      <entry key="S10" value="0.0032144775716422677" />
+      <entry key="S30" value="0.1475831582656052" />
+      <entry key="S60" value="0.3841655349963441" />
+      <entry key="M2" value="0.6198184268314976" />
+      <entry key="M5" value="0.8793984991006786" />
+      <entry key="M10" value="2.228081835113363" />
+      <entry key="M15" value="4.928863279298962" />
+      <entry key="M30" value="13.723401363555384" />
+      <entry key="H1" value="26.151683785101145" />
+      <entry key="H2" value="40.84165952043684" />
+      <entry key="H4" value="54.97808466598435" />
+      <entry key="D1" value="74.67764246138465" />
+      <entry key="W1" value="79.20393711159612" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.32720600750702E-6" />
-      <entry key="MS500" value="0.09166202585954922" />
-      <entry key="S2" value="0.6945839352109711" />
-      <entry key="S5" value="1.3389435225988444" />
-      <entry key="S10" value="1.8709054380575576" />
-      <entry key="S30" value="2.83681316221149" />
-      <entry key="S60" value="4.428955555213973" />
-      <entry key="M2" value="8.237723202312184" />
-      <entry key="M5" value="21.391913299701958" />
-      <entry key="M10" value="38.26765392997966" />
-      <entry key="M15" value="50.349554063883176" />
-      <entry key="M30" value="75.19293327072971" />
-      <entry key="H1" value="110.04999304549699" />
-      <entry key="H2" value="158.04372906837065" />
-      <entry key="H4" value="206.99853058800014" />
-      <entry key="D1" value="275.601534192618" />
-      <entry key="W1" value="291.2532251222214" />
+      <entry key="MS100" value="0.9375364047046425" />
+      <entry key="MS500" value="1.5550217406465134" />
+      <entry key="S2" value="1.8666653913540003" />
+      <entry key="S5" value="1.9446107083293944" />
+      <entry key="S10" value="1.9750077599033418" />
+      <entry key="S30" value="2.1358064906372785" />
+      <entry key="S60" value="2.376375897219805" />
+      <entry key="M2" value="2.6150018611400294" />
+      <entry key="M5" value="2.9715603925331053" />
+      <entry key="M10" value="6.090292018937367" />
+      <entry key="M15" value="12.530828665776662" />
+      <entry key="M30" value="35.79028680256389" />
+      <entry key="H1" value="75.69237656995696" />
+      <entry key="H2" value="131.45392071992393" />
+      <entry key="H4" value="189.61928924219808" />
+      <entry key="D1" value="273.8821119627883" />
+      <entry key="W1" value="293.53545519494963" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -332,7 +297,7 @@
       <workItem from="1779383371705" duration="6257000" />
       <workItem from="1780658297766" duration="392000" />
       <workItem from="1780658704271" duration="39000" />
-      <workItem from="1780658752678" duration="10765000" />
+      <workItem from="1780658752678" duration="12338000" />
     </task>
     <servers />
   </component>

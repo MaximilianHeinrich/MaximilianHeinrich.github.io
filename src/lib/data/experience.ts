@@ -1,6 +1,6 @@
 import Assets from './assets';
 import { getSkills } from './skills';
-import { ContractType, type Experience } from '../types';
+import type { ContractType, Experience } from '../types';
 
 export const items: Array<Experience> = [
 	// {
@@ -14,7 +14,7 @@ export const items: Array<Experience> = [
 	// 		'                work, along the way we started our challenge plugin JUtils, which we have been working on ever since.\n' +
 	// 		'                have been working on ever since. Over time, we started working with personalities like Kenjih. If you would like to\n' +
 	// 		'                would like to work with us, please feel free to contact us!\n',
-	// 	contract: ContractType.SelfEmployed,
+	// 	contract: ContractType.Internship,
 	// 	type: 'Software Development',
 	// 	location: 'Home',
 	// 	period: {
