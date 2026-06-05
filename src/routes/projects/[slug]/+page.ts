@@ -1,5 +1,9 @@
 import { items } from '@data/projects';
 
+export function entries() {
+	return items.map((i) => ({ slug: i.slug }));
+}
+
 export function load({ params }: { params: Record<string, string> }) {
 	if (params.slug) {
 		const project = items.find((item) => {

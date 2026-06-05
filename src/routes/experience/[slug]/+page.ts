@@ -1,5 +1,9 @@
 import { items } from '@data/experience';
 
+export function entries() {
+	return items.map((i) => ({ slug: i.slug }));
+}
+
 export function load({ params }: { params: Record<string, string> }) {
 	if (params.slug) {
 		const experience = items.find((item) => {
