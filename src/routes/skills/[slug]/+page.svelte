@@ -4,7 +4,7 @@
 	import * as experiences from '@data/experience';
 
 	import { base } from '$app/paths';
-	import { getAssetURL } from '$lib/data/assets';
+	import { resolveAsset, isDark } from '$lib/data/assets';
 
 	import type { Skill } from '$lib/types';
 
@@ -39,7 +39,7 @@
 		projects.items.forEach((item) => {
 			if (item.skills.some((tech) => tech.slug === skill.slug)) {
 				out.push({
-					img: getAssetURL(item.logo),
+					img: resolveAsset(item.logo, $isDark),
 					display: `${item.name} (${item.type})`,
 					name: item.name,
 					type: 'projects',
@@ -51,11 +51,11 @@
 		experiences.items.forEach((item) => {
 			if (item.skills.some((tech) => tech.slug === skill.slug)) {
 				out.push({
-					img: getAssetURL(item.logo),
+					img: resolveAsset(item.logo, $isDark),
 					display: `${item.name} @ ${item.company}`,
 					name: item.name,
 					type: 'experience',
-					url: `/experience/${item.slug}`
+					url: `ski`
 				});
 			}
 		});
@@ -78,7 +78,7 @@
 		</div>
 	{:else}
 		<div class="flex flex-col items-center overflow-x-hidden">
-			<Banner img={getAssetURL(data.skill.logo)}>
+			<Banner img={resolveAsset(data.skill.logo, $isDark)}>
 				<MainTitle>{data.skill.name}</MainTitle>
 			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
@@ -101,7 +101,10 @@
 					{#each related as item}
 						<Chip
 							classes="inline-flex flex-row items-center justify-center"
-							href={`${base}${item.url}`}
+							on:click={(event) => {
+        event.preventDefault();
+        event.stopPropagation();
+       }}
 						>
 							<CardLogo src={item.img} alt={item.name} radius={'0px'} size={15} classes="mr-2" />
 							<span class="text-[0.9em]">{item.display}</span>

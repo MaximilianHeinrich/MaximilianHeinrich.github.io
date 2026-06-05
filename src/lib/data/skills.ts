@@ -26,18 +26,12 @@ import gradle from '../md/tools/Gradle.md?raw';
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
 const categories = [
-	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
-	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
-	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
-	defineSkillCategory({ name: 'Languages', slug: 'lang' }),
-	defineSkillCategory({ name: 'Databases', slug: 'db' }),
-	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
-	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
-	defineSkillCategory({ name: 'Testing', slug: 'test' }),
-	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
-	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
-	defineSkillCategory({ name: 'Design', slug: 'design' }),
-	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
+	defineSkillCategory({ name: 'Equity & Company Analysis', slug: 'equity-analysis' }),
+	defineSkillCategory({ name: 'Valuation & Investment Logic', slug: 'valuation-investment-logic' }),
+	defineSkillCategory({ name: 'Market & Data Interpretation', slug: 'market-data-interpretation' }),
+	defineSkillCategory({ name: 'Structured Problem Solving', slug: 'structured-problem-solving' }),
+	defineSkillCategory({ name: 'Professional Strengths', slug: 'professional-strengths' }),
+	defineSkillCategory({ name: 'Tools & Software', slug: 'tools-software' })
 ] as const;
 
 const defineSkill = <S extends string>(
@@ -56,197 +50,136 @@ const defineSkill = <S extends string>(
 
 export const items = [
 	defineSkill({
-		slug: 'java',
-		color: 'orange',
-		description:
-		java,
-		logo: Assets.Java,
-		name: 'Java',
-		category: 'pro-lang'
-	}),
-	defineSkill({
-		slug: 'c++',
-		color: 'blue',
-		description:
-		cpp,
-		logo: Assets.Cpp,
-		name: 'C++',
-		category: 'pro-lang'
-	}),
-	defineSkill({
-		slug: 'kotlin',
-		color: 'purple',
-		description:
-		kotlin,
-		logo: Assets.Kotlin,
-		name: 'Kotlin',
-		category: 'pro-lang'
-	}),
-	defineSkill({
-		slug: 'javascript',
-		color: 'yellow',
-		description:
-		javascript,
-		logo: Assets.JavaScript,
-		name: 'JavaScript',
-		category: 'pro-lang'
-	}),
-	defineSkill({
-		slug: 'postgres',
-		color: 'steelblue',
-		description:
-		psql,
-		logo: Assets.PostgreSQL,
-		name: 'PostgeSQL',
-		category: 'db'
-	}),
-	defineSkill({
-		slug: 'mysql',
-		color: 'astral',
-		description:
-		mysql,
-		logo: Assets.MySQL,
-		name: 'MySQL',
-		category: 'db'
-	}),
-	defineSkill({
-		slug: 'mongodb',
-		color: 'limegreen',
-		description:
-		mongodb,
-		logo: Assets.MongoDB,
-		name: 'MongoDB',
-		category: 'db'
-	}),
-	defineSkill({
-		slug: 'redis',
-		color: 'red',
-		description:
-		redis,
-		logo: Assets.Redis,
-		name: 'Redis',
-		category: 'db'
-	}),
-	defineSkill({
-		slug: 'json',
+		slug: 'financial-statements',
 		color: 'grey',
-		description:
-		json,
-		logo: Assets.JSON,
-		name: 'JSON',
-		category: 'markup-style'
+		description: '',
+		logo: Assets.Analysis,
+		name: 'Understanding of financial statements (P&L, balance sheet, cash flow)',
+		category: 'equity-analysis'
 	}),
 	defineSkill({
-		slug: 'yaml',
-		color: 'black',
-		description:
-		yaml,
-		logo: Assets.Yaml,
-		name: 'Yaml',
-		category: 'markup-style'
-	}),
-	defineSkill({
-		slug: 'spring',
-		color: 'green',
-		description:
-		spring,
-		logo: Assets.Spring,
-		name: 'Spring',
-		category: 'framework'
-	}),
-	defineSkill({
-		slug: 'ktor',
-		color: 'hopbush',
-		description:
-		ktor,
-		logo: Assets.Ktor,
-		name: 'Ktor',
-		category: 'framework'
-	}),
-	defineSkill({
-		slug: 'bash',
+		slug: 'kpi-interpretation',
 		color: 'grey',
-		description:
-		bash,
-		logo: Assets.Bash,
-		name: 'Bash',
-		category: 'devtools'
+		description: '',
+		logo: Assets.Analysis,
+		name: 'Basic KPI interpretation (growth, margins, profitability)',
+		category: 'equity-analysis'
 	}),
 	defineSkill({
-		slug: 'git',
-		color: 'orange',
-		description:
-		git,
-		logo: Assets.Git,
-		name: 'Git',
-		category: 'devtools'
+		slug: 'peer-comparison',
+		color: 'grey',
+		description: '',
+		logo: Assets.Analysis,
+		name: 'Awareness of peer comparison concepts',
+		category: 'equity-analysis'
 	}),
 	defineSkill({
-		slug: 'jenkins',
-		color: 'red',
-		description:
-		jenkins,
-		logo: Assets.Jenkins,
-		name: 'Jenkins',
-		category: 'devtools'
+		slug: 'sector-differences',
+		color: 'grey',
+		description: '',
+		logo: Assets.Analysis,
+		name: 'Introduction to sector differences',
+		category: 'equity-analysis'
 	}),
 	defineSkill({
-		slug: 'kubernets',
-		color: 'dodgerblue',
-		description:
-		kubernetes,
-		logo: Assets.Kubernetes,
-		name: 'Kubernetes',
-		category: 'devtools'
+		slug: 'valuation-basics',
+		color: 'grey',
+		description: '',
+		logo: Assets.Logic,
+		name: 'Understanding of valuation basics (multiples conceptually)',
+		category: 'valuation-investment-logic'
 	}),
 	defineSkill({
-		slug: 'postman',
-		color: 'coral',
-		description:
-		postman,
-		logo: Assets.Postman,
-		name: 'Postman',
-		category: 'devtools'
+		slug: 'value-drivers',
+		color: 'grey',
+		description: '',
+		logo: Assets.Logic,
+		name: 'Awareness of what drives company value',
+		category: 'valuation-investment-logic'
 	}),
 	defineSkill({
-		slug: 'nmap',
-		color: 'midnightpurple',
-		description:
-		nmap,
-		logo: Assets.NMap,
-		name: 'NMap',
-		category: 'devtools'
+		slug: 'dcf-logic',
+		color: 'grey',
+		description: '',
+		logo: Assets.Logic,
+		name: 'Introductory understanding of DCF logic',
+		category: 'valuation-investment-logic'
 	}),
 	defineSkill({
-		slug: 'Maven',
-		color: 'vermilion',
-		description:
-		maven,
-		logo: Assets.Maven,
-		name: 'Maven',
-		category: 'devtools'
+		slug: 'upside-downside-scenarios',
+		color: 'grey',
+		description: '',
+		logo: Assets.Logic,
+		name: 'Thinking in terms of upside/downside scenarios',
+		category: 'valuation-investment-logic'
 	}),
 	defineSkill({
-		slug: 'Gradle',
-		color: 'deepteal',
-		description:
-		gradle,
-		logo: Assets.Gradle,
-		name: 'Gradle',
-		category: 'devtools'
+		slug: 'market-trends-news-impact',
+		color: 'grey',
+		description: '',
+		logo: Assets.Interpretation,
+		name: 'Awareness of market trends and news impact',
+		category: 'market-data-interpretation'
 	}),
 	defineSkill({
-		slug: 'Linux',
-		color: 'yellow',
-		description:
-		linux,
-		logo: Assets.Linux,
-		name: 'Linux',
-		category: 'devops'
+		slug: 'price-fundamentals-relationship',
+		color: 'grey',
+		description: '',
+		logo: Assets.Interpretation,
+		name: 'Understanding relationship between price and fundamentals (basic)',
+		category: 'market-data-interpretation'
 	}),
+	defineSkill({
+		slug: 'pattern-observation',
+		color: 'grey',
+		description: '',
+		logo: Assets.Interpretation,
+		name: 'Ability to observe patterns in financial data',
+		category: 'market-data-interpretation'
+	}),
+	defineSkill({
+		slug: 'data-interpretation-insights',
+		color: 'grey',
+		description: '',
+		logo: Assets.Interpretation,
+		name: 'Interest in translating data into insights',
+		category: 'market-data-interpretation'
+	}),
+	defineSkill({
+		slug: 'problem-structuring',
+		color: 'grey',
+		description: '',
+		logo: Assets.Excel,
+		name: 'Excel / Google Sheets',
+		category: 'tools-software'
+	}),
+	defineSkill({
+		slug: 'powerpoint',
+		color: 'grey',
+		description: '',
+		logo: Assets.PowerPoint,
+		name: 'PowerPoint',
+		category: 'tools-software'
+	}),
+	defineSkill({
+		slug: 'python',
+		color: 'grey',
+		description: '',
+		logo: Assets.Python,
+		name: 'Python',
+		category: 'tools-software'
+	}),
+	defineSkill({
+		slug: 'financial-data-apis',
+		color: 'grey',
+		description: '',
+		logo: Assets.API,
+		name: 'Financial Data APIs',
+		category: 'tools-software'
+	})
 ] as const;
 
-export const title = 'Skills';
+export const title = 'Skillset';
 
 export const getSkills = (
 	...slugs: Array<StringWithAutoComplete<(typeof items)[number]['slug']>>

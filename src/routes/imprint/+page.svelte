@@ -3,6 +3,7 @@
 	import { titleSuffix } from '@data/app';
 	import { useTitle } from '$lib/utils/helpers';
 	import LegalLinks from '@components/Legal/Legal.svelte';
+	import Credits from '@components/Credits/Credits.svelte';
 
 	const title = 'Imprint';
 
@@ -65,3 +66,4 @@
 	</div>
 </div>
 <LegalLinks />
+<Credits />

@@ -4,6 +4,7 @@
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
 	import LegalLinks from '@components/Legal/Legal.svelte';
+	import Credits from '@components/Credits/Credits.svelte';
 </script>
 
 <CommonPage {title}>
@@ -18,6 +19,7 @@
 	</div>
 </CommonPage>
 <LegalLinks />
+<Credits />
 
 <style lang="scss">
 	.resume {

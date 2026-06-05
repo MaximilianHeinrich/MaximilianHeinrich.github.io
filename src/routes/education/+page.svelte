@@ -1,21 +1,21 @@
 <script lang="ts">
 	import Card from '$lib/components/Card/Card.svelte';
-	import Chip from '$lib/components/Chip/Chip.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
-	import { getAssetURL } from '$lib/data/assets';
 
-	import { title, items } from '@data/education';
+	import { items, title } from '@data/education';
 	import type { Education } from '$lib/types';
-	import { getTimeDiff } from '$lib/utils';
+
 	import LegalLinks from '@components/Legal/Legal.svelte';
+	import Credits from '@components/Credits/Credits.svelte';
+
+	import { isDark, resolveAsset } from '$lib/data/assets';
 
 	let search = '';
-
 	let result: Array<Education> = items;
 
 	const onSearch = (ev: CustomEvent<{ search: string }>) => {
-		const s = ev.detail.search;
+		const s = ev.detail.search.toLowerCase();
 
 		result = items.filter((it) => {
 			return (
@@ -24,59 +24,133 @@
 				it.location.toLowerCase().includes(s) ||
 				it.name.toLowerCase().includes(s) ||
 				it.organization.toLowerCase().includes(s) ||
-				it.subjects.some((it) => it.toLowerCase().includes(s))
+				it.subjects.some((sub) => sub.toLowerCase().includes(s))
 			);
 		});
 	};
+
+	const formatMonthYear = (date: Date | string) => {
+		const d = new Date(date);
+		return d.toLocaleDateString('en-US', {
+			month: 'short',
+			year: 'numeric'
+		});
+	};
+
+	const formatPeriod = (from: Date, to?: Date, expected?: Date) => {
+		const start = formatMonthYear(from);
+
+		if (to) return `${start} – ${formatMonthYear(to)}`;
+		if (expected) return `${start} – Est. ${formatMonthYear(expected)}`;
+
+		return start;
+	};
 </script>
 
-<SearchPage {title} {search} on:search={onSearch}>
-	<div class="col items-center relative mt-10 flex-1">
+<SearchPage on:search={onSearch} {search} {title}>
+	<div class="mt-12 flex flex-col gap-7 w-full max-w-4xl mx-auto">
+
 		{#if result.length === 0}
-			<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
-				<UIcon icon="i-carbon-development" classes="text-3.5em" />
-				<p class="font-300">Could not find anything...</p>
+			<div class="p-10 flex flex-col items-center gap-3 text-[var(--accent-text)]">
+				<UIcon icon="i-carbon-search-locate" classes="text-4xl opacity-60" />
+				<p class="text-sm tracking-wide font-light uppercase">
+					No matching records found
+				</p>
 			</div>
+
 		{:else}
-			<div
-				class="w-[0.5px] hidden lg:flex top-0 bottom-0 py-50px bg-[var(--border)] absolute rounded"
-			/>
-			{#each result as education, index (education.slug)}
-				<div
-					class={`flex ${
-						index % 2 !== 0 ? 'flex-row' : 'flex-row-reverse'
-					} relative items-center w-full my-[10px]`}
-				>
-					<div class="flex-1 hidden lg:flex" />
-					<div class="hidden lg:inline p-15px bg-[var(--main)] rounded">
-						<UIcon icon="i-carbon-condition-point" />
-					</div>
-					<div class="col flex-1 items-stretch">
-						<Card>
-							<div class="flex-1 col gap-2 items-stretch">
+
+			{#each result as education (education.slug)}
+				<div class="relative group">
+
+					<Card classes={[
+						"relative",
+						"pl-14",
+						"pr-8",
+						"py-8",
+						"border",
+						"border-[var(--border)]",
+						"bg-[var(--card-bg)]",
+						"rounded-lg",
+
+						"transform-gpu",
+						"transition-transform duration-200 ease-out",
+
+						"group-hover:-translate-y-0.5",
+
+						"group-hover:shadow-md"
+						]}>
+
+						<!-- HEADER -->
+						<div class="flex justify-between items-start gap-6 mb-6">
+
+							<!-- left: logo + org + degree -->
+							<div class="flex items-start gap-4">
+
 								<img
-									src={getAssetURL(education.logo)}
+									src={resolveAsset(education.logo, $isDark)}
 									alt={education.organization}
-									height="50"
-									width="50"
-									class="mb-5"
+									class="h-10 w-10 rounded-md grayscale opacity-80 bg-white/5 p-1"
 								/>
-								<div class="text-[1.3em]">{education.degree}</div>
-								<div>{education.organization}</div>
-								<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">
-									{education.location} · {getTimeDiff(education.period.from, education.period.to)}
+
+								<div class="flex flex-col gap-1">
+									<div class="text-[11px] tracking-[0.22em] uppercase text-[var(--accent-text)]">
+										{education.organization}
+									</div>
+
+									<div class="text-[17px] font-light tracking-tight leading-snug">
+										{education.degree}
+									</div>
 								</div>
-								<div class="row flex-wrap gap-1">
-									{#each education.subjects as subject}
-										<Chip>{subject}</Chip>
-									{/each}
-								</div>
+
 							</div>
-						</Card>
-					</div>
+
+							<!-- right: location -->
+							<div class="text-[11px] text-[var(--accent-text)] font-light whitespace-nowrap pt-1">
+								{education.location}
+							</div>
+
+						</div>
+
+						<!-- METADATA -->
+						<div
+							class="flex flex-col gap-3 text-[11px] text-[var(--accent-text)] mb-7 pt-3 border-t border-[var(--border)]/40">
+
+							<div class="flex justify-between py-0.5">
+								<span class="uppercase tracking-wide">Period</span>
+								<span class="text-right">
+									{formatPeriod(
+										education.period.from,
+										education.period.to,
+										education.period.expected
+									)}
+								</span>
+							</div>
+
+							<div class="flex justify-between py-0.5">
+								<span class="uppercase tracking-wide">Classification</span>
+								<span class="text-right">Academic Record</span>
+							</div>
+
+						</div>
+
+						<!-- SUBJECTS -->
+						<div class="flex flex-wrap gap-2.5">
+							{#each education.subjects as subject}
+								<span
+									class="text-[11px] uppercase tracking-wide px-2.5 py-1 border border-[var(--border)] text-[var(--accent-text)] rounded-sm">
+									{subject}
+								</span>
+							{/each}
+						</div>
+
+					</Card>
 				</div>
 			{/each}
+
 		{/if}
 	</div>
 </SearchPage>
+
 <LegalLinks />
+<Credits />

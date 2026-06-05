@@ -1,6 +1,7 @@
 import type { Asset } from '$lib/types';
 import { theme } from '$lib/stores/theme';
 import { base } from '$app/paths';
+import { derived } from 'svelte/store';
 
 const gh = (file: string) => `${base}/logos/${file}`;
 
@@ -35,7 +36,7 @@ const Assets = {
 	ReactJs: a('react.svg'),
 	Dart: a('dart.png'),
 	Kotlin: a('kotlin.png'),
-	Python: a('python.png'),
+	Python: a('python.svg'),
 	NodeJs: a('node.png'),
 	Deno: a('deno.png', 'deno-dark.png'),
 	Svelte: a('svelte.png'),
@@ -89,17 +90,37 @@ const Assets = {
 	NMap: a('Nmap.svg'),
 	Maven: a('apache_maven-icon.svg'),
 	Gradle: a('gradle-icon.svg'),
-	MdBook: a('mdbook.png'),
+	MdBook: a('mdbook-dark.png', 'mdbook.png'),
+	None: a('no-img.svg'),
 	German: a('germany.png'),
 	English: a('britain.png'),
+	Report: a('report.png'),
+	Analysis: a('code-analysis.svg'),
+	Logic: a('critical-thinking.svg'),
+	Interpretation: a('graph.svg'),
+	Excel: a('excel.svg'),
+	PowerPoint: a('powerpoint.svg'),
+	API: a('api.svg'),
+	NYIF: a('nyif.png'),
+	MIT: a('mit-d.svg', 'mit-l.svg'),
+	DeutscheBank: a('db.svg'),
+	VR: a('vr.svg'),
 };
 
 export default Assets;
 
-let currentTheme: boolean;
+// let currentTheme: boolean;
+//
+// theme.subscribe((v) => (currentTheme = v));
+//
+// export const getAssetURL = (asset: Asset): string => {
+// 	return typeof asset === 'string' ? asset : currentTheme ? asset.dark : asset.light;
+// };
+export const isDark = derived(theme, ($t) => $t);
 
-theme.subscribe((v) => (currentTheme = v));
-
-export const getAssetURL = (asset: Asset): string => {
-	return typeof asset === 'string' ? asset : currentTheme ? asset.dark : asset.light;
+/**
+ * Pure resolver function (NO store here)
+ */
+export const resolveAsset = (asset: Asset, dark: boolean): string => {
+	return typeof asset === 'string' ? asset : dark ? asset.dark : asset.light;
 };

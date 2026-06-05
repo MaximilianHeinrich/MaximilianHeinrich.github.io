@@ -83,8 +83,6 @@
 		--bg-color: transparent;
 		--drop-color: transparent;
 
-		--bg-img: url();
-
 		--drop-x: 0;
 		--drop-y: 0;
 

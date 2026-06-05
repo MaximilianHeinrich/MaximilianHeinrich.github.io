@@ -9,6 +9,7 @@
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
 	import LegalLinks from '$lib/components/Legal/Legal.svelte';
+	import Credits from '@components/Credits/Credits.svelte';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
@@ -42,6 +43,7 @@
 			{/each}
 		</div>
 	</div>
-	<Carrousel items={skills ?? skillsItems} />
+<!--	<Carrousel items={skills ?? skillsItems} />-->
 	<LegalLinks />
+	<Credits />
 </div>

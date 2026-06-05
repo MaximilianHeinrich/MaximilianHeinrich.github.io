@@ -8,23 +8,22 @@ export const name = 'Maximilian Andreas';
 export const lastName = 'Heinrich';
 
 export const description =
-	'I’m a back-end developer based from Germany. I can develop fast and secure backend-solutions with Java, Springboot and a database of choice.\n' +
+	'High school student based in Germany exploring finance, economics, and capital markets. I focus on analyzing companies through financial statements, valuation fundamentals, and market dynamics.\n' +
 	'\n' +
-	'For the last year, I have been programming backends for various applications. Be it licensing or communication systems like BeReal. Since then, I\'ve been on a constant learning curve, and I\'m always up-to-date with new techniques.';
+	'I am developing a structured, analytical approach to interpreting data, identifying key value drivers, and forming investment perspectives, with a strong emphasis on continuous learning.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/MaximilianHeinrich' },
 	{
 		platform: Platform.Linkedin,
 		link: 'https://www.linkedin.com/in/maxhei'
 	},
 	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
 		platform: Platform.Email,
 		link: 'email@maximilian.software'
+	},
+	{
+		platform: Platform.Portfolio,
+		link: '/'
 	}
 ];
 

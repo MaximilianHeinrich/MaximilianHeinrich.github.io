@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: "Ndot-55";
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-	src: url("//de.nothing.tech/cdn/shop/t/5/assets/Ndot-55.otf?v=18522138017450180331657379059");
-}
-
-@font-face {
-	font-family: "NType82";
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-	src: url("//de.nothing.tech/cdn/shop/t/5/assets/NType82-Regular.otf?v=166738954582626444901657379049");
-}
-
 :root {
 	--dark-0: #000;
 	--dark-00: #3b3b3b;
@@ -74,6 +58,7 @@
 
 body {
 	margin: 0px;
+	font-family: "Inter", system-ui, sans-serif;
 }
 
 * {

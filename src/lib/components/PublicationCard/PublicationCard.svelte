@@ -8,7 +8,7 @@
 	import ChipIcon from '../Chip/ChipIcon.svelte';
 	import CardLogo from '../Card/CardLogo.svelte';
 	import type { Publication } from '$lib/types';
-	import { getAssetURL } from '$lib/data/assets';
+	import { resolveAsset, isDark } from '$lib/data/assets';
 	import { base } from '$app/paths';
 
 	export let publication: Publication;
@@ -25,7 +25,7 @@
 </script>
 
 <Card color={publication.color} href={`${base}/publications/${publication.slug}`}>
-	<CardLogo alt={publication.name} src={getAssetURL(publication.logo)} size={40} radius={'0'} />
+	<CardLogo alt={publication.name} src={resolveAsset(publication.logo, $isDark)} size={40} radius={'0'} />
 	<div class="m-t-20px row justify-between items-center">
 		<CardTitle title={publication.name} />
 		<div class="row">
@@ -58,7 +58,7 @@
 	<div class="row flex-wrap">
 		{#each publication.language as lang}
 			<ChipIcon
-				logo={getAssetURL(lang.logo)}
+				logo={resolveAsset(lang.logo, $isDark)}
 				name={lang.name}
 				href={``}
 			/>

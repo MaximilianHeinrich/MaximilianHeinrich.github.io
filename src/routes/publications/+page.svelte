@@ -10,6 +10,7 @@
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import LegalLinks from '@components/Legal/Legal.svelte';
+	import Credits from '@components/Credits/Credits.svelte';
 
 	interface LanguageFilter extends Language {
 		isSelected?: boolean;
@@ -93,6 +94,7 @@
 	{/if}
 </SearchPage>
 <LegalLinks />
+<Credits />
 
 <style lang="scss">
 	.projects-list {

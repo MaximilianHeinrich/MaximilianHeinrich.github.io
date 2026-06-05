@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { getAssetURL } from '$lib/data/assets';
+	import { resolveAsset, isDark } from '$lib/data/assets';
 	import { title } from '@data/experience';
 	import { getTimeDiff } from '$lib/utils';
 
@@ -30,7 +30,7 @@
 		</div>
 	{:else}
 		<div class="flex flex-col items-center overflow-x-hidden">
-			<Banner img={getAssetURL(data.experience.logo)}>
+			<Banner img={resolveAsset(data.experience.logo, $isDark)}>
 				<div class="col-center p-y-20">
 					<div class="text-0.9em">
 						<MainTitle>{data.experience.name}</MainTitle>
@@ -58,10 +58,9 @@
 						{#each data.experience.skills as item}
 							<Chip
 								classes="inline-flex flex-row items-center justify-center"
-								href={`${base}/skills/${item.slug}`}
 							>
 								<CardLogo
-									src={getAssetURL(item.logo)}
+									src={resolveAsset(item.logo, $isDark)}
 									alt={item.name}
 									radius={'0px'}
 									size={15}

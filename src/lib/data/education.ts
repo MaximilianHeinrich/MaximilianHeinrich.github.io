@@ -3,28 +3,43 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Gymnasium',
-		description: '',
-		location: 'Königsbrunn, Germany',
-		logo: Assets.GymKoe,
-		name: '',
-		organization: 'Gymnasium Königsbrunn',
-		period: { from: new Date(2014, 8, 15) },
-		shortDescription: '',
-		slug: 'gymnasium',
-		subjects: ['Computer Science', 'English', 'Math', 'German', '...']
-	},
-	{
 		degree: 'A-Level',
 		description: '',
 		location: 'Königsbrunn, Germany',
 		logo: Assets.GymKoe,
 		name: '',
 		organization: 'Gymnasium Königsbrunn',
-		period: { from: new Date(2027, 3) },
+		period: { from: new Date(2027, 5) },
 		shortDescription: '',
 		slug: 'a-level',
-		subjects: ['Java', 'Computer Science', 'Math', 'German', 'English', 'Economy and law']
+		subjects: ['Computer Science', 'Math (e.A)', 'German (e.A)', 'English (e.A)', 'Economy and Law']
+	},
+	{
+		degree: 'Certificate for Essential Career Skills for Investment Banking and Finance',
+		description: '',
+		location: 'edx',
+		logo: Assets.NYIF,
+		name: '',
+		organization: 'New York Institute of Finance',
+		period: { from: new Date(2026, 4) },
+		shortDescription: '',
+		slug: 'nyif',
+		subjects: ['Investment Banking']
+	},
+	{
+		degree: 'AP® Microeconomics',
+		description: '',
+		location: 'edx',
+		logo: Assets.MIT,
+		name: '',
+		organization: 'MIT',
+		period: {
+			from: new Date(2026, 4),
+			expected: new Date(2026, 7)
+		},
+		shortDescription: '',
+		slug: 'macroeconomics',
+		subjects: ['Microeconomics']
 	}
 ];
 

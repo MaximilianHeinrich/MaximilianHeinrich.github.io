@@ -7,7 +7,8 @@ export enum Platform {
 	Linkedin = 'linkedin',
 	Email = 'email',
 	Facebook = 'facebook',
-	Youtube = 'youtube'
+	Youtube = 'youtube',
+	Portfolio = 'portfolio'
 }
 
 export type Icon = `i-${string}-${string}`;
@@ -90,6 +91,7 @@ export interface Education<S extends string = string> extends Item<S> {
 	period: {
 		from: Date;
 		to?: Date;
+		expected?: Date;
 	};
 	subjects: Array<string>;
 	degree: string;

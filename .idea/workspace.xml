@@ -5,21 +5,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/components/Credits/Credits.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/data/publicationTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/publications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/publications.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Card/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Card/Card.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Carrousel/Carrousel.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Carrousel/Carrousel.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ExperienceCard/ExperienceCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ExperienceCard/ExperienceCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Legal/Legal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Legal/Legal.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/NavMenu/NavMenu.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/NavMenu/NavMenu.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ProjectCard/ProjectCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ProjectCard/ProjectCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/PublicationCard/PublicationCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/PublicationCard/PublicationCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/assets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/assets.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/education.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/education.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/experience.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/experience.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/navbar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/resume.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/resume.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/skills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/skills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/commits/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/education/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/education/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/experience/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/experience/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/imprint/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/imprint/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/privacy/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/privacy/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/projects/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/projects/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/publications/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/publications/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/resume/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/resume/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/skills/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/skills/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/skills/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/skills/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/no-img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/python.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pdf/resume.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="f1a6d4b5-b0ac-43f4-b6be-fc8340a83f12" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="f1a6d4b5-b0ac-43f4-b6be-fc8340a83f12" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="2219befe-4816-4141-9db9-c5e36f082ca9" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io" value="2cuRSqvxgxcR1sLiC5NoPTpXu31" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Auto" />
+      <entry key="chat-panel" value="Auto" />
+    </selectedModels>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="248" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="page.svelte" />
         <option value="Legal" />
-        <option value="TypeScript File" />
         <option value="PublicationCard" />
+        <option value="TypeScript File" />
+        <option value="Credits" />
+        <option value="EducationCard" />
       </list>
     </option>
   </component>
@@ -44,23 +124,105 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="3.27791311158101E-17" />
+      <entry key="MS500" value="5.048002160646753E-4" />
+      <entry key="S2" value="0.15257630246993648" />
+      <entry key="S5" value="0.5617199729250338" />
+      <entry key="S10" value="0.9912087392032966" />
+      <entry key="S30" value="1.8744768507471268" />
+      <entry key="S60" value="3.3559746388082887" />
+      <entry key="M2" value="6.370730031889761" />
+      <entry key="M5" value="13.684575208578906" />
+      <entry key="M10" value="22.43602422022712" />
+      <entry key="M15" value="29.432596021675124" />
+      <entry key="M30" value="45.992100349673144" />
+      <entry key="H1" value="71.97023974898212" />
+      <entry key="H2" value="109.02680854406559" />
+      <entry key="H4" value="147.12862862878293" />
+      <entry key="D1" value="200.64103132010717" />
+      <entry key="W1" value="212.85620695899755" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000002247" />
+      <entry key="S10" value="1.0000004740360124" />
+      <entry key="S30" value="1.007810145187999" />
+      <entry key="S60" value="1.1030496696117913" />
+      <entry key="M2" value="1.8947615920105123" />
+      <entry key="M5" value="7.7405791329118445" />
+      <entry key="M10" value="15.862854540219304" />
+      <entry key="M15" value="20.944274785215804" />
+      <entry key="M30" value="29.220257266543182" />
+      <entry key="H1" value="38.09302956644692" />
+      <entry key="H2" value="49.026023492118526" />
+      <entry key="H4" value="59.875730820450556" />
+      <entry key="D1" value="74.96177485141958" />
+      <entry key="W1" value="78.39720968856867" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="6.32720600750702E-6" />
+      <entry key="MS500" value="0.09166202585954922" />
+      <entry key="S2" value="0.6945839352109711" />
+      <entry key="S5" value="1.3389435225988444" />
+      <entry key="S10" value="1.8709054380575576" />
+      <entry key="S30" value="2.83681316221149" />
+      <entry key="S60" value="4.428955555213973" />
+      <entry key="M2" value="8.237723202312184" />
+      <entry key="M5" value="21.391913299701958" />
+      <entry key="M10" value="38.26765392997966" />
+      <entry key="M15" value="50.349554063883176" />
+      <entry key="M30" value="75.19293327072971" />
+      <entry key="H1" value="110.04999304549699" />
+      <entry key="H2" value="158.04372906837065" />
+      <entry key="H4" value="206.99853058800014" />
+      <entry key="D1" value="275.601534192618" />
+      <entry key="W1" value="291.2532251222214" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2cuRSqvxgxcR1sLiC5NoPTpXu31" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/src/routes/publications",
+    "last_opened_file_path": "/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/src/routes/certificates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,13 +232,15 @@
     "npm.deploy.executor": "Run",
     "npm.dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/home/max/Documents/Coding/JavaScript/MaximilianHeinrich.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/certificates" />
       <recent name="$PROJECT_DIR$/src/routes/publications" />
       <recent name="$PROJECT_DIR$/src/routes/privacy" />
       <recent name="C:\Users\Max\Documents\Coding\JavaScript\MaximilianHeinrich.github.io\src\routes" />
@@ -126,7 +290,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
       </set>
     </attachedChunks>
   </component>
@@ -160,11 +324,27 @@
       <workItem from="1744876797742" duration="2666000" />
       <workItem from="1744879473776" duration="11000" />
       <workItem from="1751146377421" duration="619000" />
-      <workItem from="1751183157472" duration="7150000" />
+      <workItem from="1751183157472" duration="7761000" />
+      <workItem from="1752157789233" duration="17000" />
+      <workItem from="1763810465844" duration="617000" />
+      <workItem from="1763811508467" duration="442000" />
+      <workItem from="1779383350948" duration="3000" />
+      <workItem from="1779383371705" duration="6257000" />
+      <workItem from="1780658297766" duration="392000" />
+      <workItem from="1780658704271" duration="39000" />
+      <workItem from="1780658752678" duration="10765000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
