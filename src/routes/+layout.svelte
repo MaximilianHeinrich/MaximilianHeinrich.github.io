@@ -5,6 +5,8 @@
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 
+	import { title, description, url, ogImage } from '$lib/data/app';
+
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
 
@@ -46,3 +48,13 @@
 		margin: 5px 0px;
 	}
 </style>
+
+<svelte:head>
+	<meta property="og:site_name" content={title} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={url} />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:image" content={ogImage} />
+	<meta name="twitter:card" content="summary_large_image" />
+</svelte:head>
