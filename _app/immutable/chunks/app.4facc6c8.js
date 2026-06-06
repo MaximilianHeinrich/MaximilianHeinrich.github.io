@@ -1,1 +1,0 @@
-const o="Maximilian Andreas Heinrich",a="Maximilian Heinrich",n="Developer portfolio of Maximilian Heinrich.",i="https://maximilianhenrich.github.io",t=`${i}/logos/logo.png`;export{o as a,n as d,t as o,a as t,i as u};
