@@ -20,7 +20,17 @@
 </script>
 
 <svelte:head>
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Maximilian Heinrich" />
+	<meta property="og:description" content="High school student exploring finance, economics, and capital markets." />
+	<meta property="og:url" content="https://maximilian.software" />
+	<meta property="og:site_name" content="Maximilian Heinrich" />
+
+	<meta property="og:image" content="https://maximilian.software/logos/icon.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<title>{useTitle(title, titleSuffix)}</title>
+
 </svelte:head>
 <div
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
