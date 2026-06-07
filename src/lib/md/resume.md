@@ -1,7 +1,7 @@
 # Details
 
 ### Königsbrunn, Germany
-### +49 176 32147803 - email@maximilian.software
+### +49 176 32147803 - email@maximilianheinrich.com
 
 ## Maximilian Andreas Heinrich, Java Backend Developer
 
@@ -16,7 +16,7 @@ Dynamic Java Backend Developer with in-depth knowledge of Spring Boot and two ye
 
 # Links
 
-- [Website](https://maximilian.software)
+- [Website](https://maximilianheinrich.com)
 - [LinkedIn](https://linkedin.com/in/maxhei)
 - [GitHub](https://github.com/maximilianheinrich)
 

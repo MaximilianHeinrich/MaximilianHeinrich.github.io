@@ -10,7 +10,7 @@ export const items: Array<Publication> = [
 		description: '',
 		shortDescription:
 			'Diese Arbeit beleuchtet die Rolle des Zufalls in der Kryptographie und entwickelt einen quantenphysikalischen Ansatz zur Erzeugung echter Zufallszahlen.',
-		links: [{ to: 'https://maximilian.software/quantum-physics/arbeiten/zufallsgenerator/index.html', label: 'Website' }],
+		links: [{ to: 'https://maximilianheinrich.com/quantum-physics/arbeiten/zufallsgenerator/index.html', label: 'Website' }],
 		logo: Assets.MdBook,
 		name: 'Zufallsgenerator',
 		period: {

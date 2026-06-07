@@ -19,7 +19,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'email@maximilian.software'
+		link: 'email@maximilianheinrich.com'
 	},
 	{
 		platform: Platform.Portfolio,
