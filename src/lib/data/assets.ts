@@ -105,6 +105,18 @@ const Assets = {
 	MIT: a('mit-d.svg', 'mit-l.svg'),
 	DeutscheBank: a('db.svg'),
 	VR: a('vr.svg'),
+	FileText: a('file-text.svg'),
+	BarChart: a('bar-chart-rounded.svg'),
+	Users: a('users.svg'),
+	Building: a('building.svg'),
+	Coins: a('coins.svg'),
+	HorizontalSliders: a('sliders-horizontal.svg'),
+	Calculator: a('calculator.svg'),
+	Shuffle: a('shuffle.svg'),
+	Newspaper: a('newspaper.svg'),
+	Scale: a('scale.svg'),
+	Search: a('search.svg'),
+	Brain: a('brain.svg'),
 };
 
 export default Assets;

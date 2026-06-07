@@ -53,7 +53,7 @@ export const items = [
 		slug: 'financial-statements',
 		color: 'grey',
 		description: '',
-		logo: Assets.Analysis,
+		logo: Assets.FileText,
 		name: 'Understanding of financial statements (P&L, balance sheet, cash flow)',
 		category: 'equity-analysis'
 	}),
@@ -61,7 +61,7 @@ export const items = [
 		slug: 'kpi-interpretation',
 		color: 'grey',
 		description: '',
-		logo: Assets.Analysis,
+		logo: Assets.BarChart,
 		name: 'Basic KPI interpretation (growth, margins, profitability)',
 		category: 'equity-analysis'
 	}),
@@ -69,7 +69,7 @@ export const items = [
 		slug: 'peer-comparison',
 		color: 'grey',
 		description: '',
-		logo: Assets.Analysis,
+		logo: Assets.Users,
 		name: 'Awareness of peer comparison concepts',
 		category: 'equity-analysis'
 	}),
@@ -77,7 +77,7 @@ export const items = [
 		slug: 'sector-differences',
 		color: 'grey',
 		description: '',
-		logo: Assets.Analysis,
+		logo: Assets.Building,
 		name: 'Introduction to sector differences',
 		category: 'equity-analysis'
 	}),
@@ -85,7 +85,7 @@ export const items = [
 		slug: 'valuation-basics',
 		color: 'grey',
 		description: '',
-		logo: Assets.Logic,
+		logo: Assets.Coins,
 		name: 'Understanding of valuation basics (multiples conceptually)',
 		category: 'valuation-investment-logic'
 	}),
@@ -93,7 +93,7 @@ export const items = [
 		slug: 'value-drivers',
 		color: 'grey',
 		description: '',
-		logo: Assets.Logic,
+		logo: Assets.HorizontalSliders,
 		name: 'Awareness of what drives company value',
 		category: 'valuation-investment-logic'
 	}),
@@ -101,7 +101,7 @@ export const items = [
 		slug: 'dcf-logic',
 		color: 'grey',
 		description: '',
-		logo: Assets.Logic,
+		logo: Assets.Calculator,
 		name: 'Introductory understanding of DCF logic',
 		category: 'valuation-investment-logic'
 	}),
@@ -109,7 +109,7 @@ export const items = [
 		slug: 'upside-downside-scenarios',
 		color: 'grey',
 		description: '',
-		logo: Assets.Logic,
+		logo: Assets.Shuffle,
 		name: 'Thinking in terms of upside/downside scenarios',
 		category: 'valuation-investment-logic'
 	}),
@@ -117,7 +117,7 @@ export const items = [
 		slug: 'market-trends-news-impact',
 		color: 'grey',
 		description: '',
-		logo: Assets.Interpretation,
+		logo: Assets.Newspaper,
 		name: 'Awareness of market trends and news impact',
 		category: 'market-data-interpretation'
 	}),
@@ -125,7 +125,7 @@ export const items = [
 		slug: 'price-fundamentals-relationship',
 		color: 'grey',
 		description: '',
-		logo: Assets.Interpretation,
+		logo: Assets.Scale,
 		name: 'Understanding relationship between price and fundamentals (basic)',
 		category: 'market-data-interpretation'
 	}),
@@ -133,7 +133,7 @@ export const items = [
 		slug: 'pattern-observation',
 		color: 'grey',
 		description: '',
-		logo: Assets.Interpretation,
+		logo: Assets.Search,
 		name: 'Ability to observe patterns in financial data',
 		category: 'market-data-interpretation'
 	}),
@@ -141,7 +141,7 @@ export const items = [
 		slug: 'data-interpretation-insights',
 		color: 'grey',
 		description: '',
-		logo: Assets.Interpretation,
+		logo: Assets.Brain,
 		name: 'Interest in translating data into insights',
 		category: 'market-data-interpretation'
 	}),
