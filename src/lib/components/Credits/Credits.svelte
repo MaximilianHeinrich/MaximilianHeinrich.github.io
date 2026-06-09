@@ -4,7 +4,7 @@
     .footer-credits {
         position: fixed;
         bottom: 6px;
-        left: 10px;
+        right: 10px;
         font-size: 0.65rem;
         color: var(--tertiary-text);
         opacity: 0.5;
@@ -18,7 +18,7 @@
         .footer-credits {
             font-size: 0.6rem;
             bottom: 4px;
-            left: 6px;
+            right: 6px;
             opacity: 0.4;
         }
     }

@@ -1,0 +1,1 @@
+Equity research on Allianz SE, analyzing financial performance, valuation, and key value drivers, with a focus on its position within the global insurance and asset management industry.

@@ -1,7 +1,8 @@
 import Assets from './assets';
 import { getSkills } from './skills';
 import type { Project } from '../types';
-import jutils from '../md/projects/JUtils.md?raw';
+import bmw from '@md/projects/BMW.md?raw';
+import allianz from '@md/projects/Allianz.md?raw';
 import { base } from '$app/paths';
 
 const gh = (file: string) => `${base}/imgs/${file}`;
@@ -10,7 +11,7 @@ export const items: Array<Project> = [
 	{
 		slug: 'cfa-bmw',
 		color: '#5e95e3',
-		description: jutils,
+		description: bmw,
 		shortDescription:
 			'Equity research on BMW AG covering financials, valuation, and peer comparison.',
 		// links: [{ to: '/pdf/bmw.pdf', label: 'Download', newTab: true }],
@@ -30,14 +31,14 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Preview',
-				src: gh('jutils-insight.png')
+				src: gh('insight.png')
 			}
 		]
 	},
 	{
 		slug: 'cfa-allianz',
 		color: '#5e95e3',
-		description: jutils,
+		description: allianz,
 		shortDescription:
 			'Equity research on Allianz SE covering financials, valuation, and peer comparison.',
 		// links: [{ to: '/pdf/allianz.pdf', label: 'Download', newTab: true }],
@@ -57,7 +58,7 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Preview',
-				src: gh('jutils-insight.png')
+				src: gh('insight.png')
 			}
 		]
 	}
