@@ -1,5 +1,6 @@
 import { Platform } from '$lib/types';
 import { getSkills } from './skills';
+import { t } from 'svelte-i18n';
 
 export const title = 'Home';
 
