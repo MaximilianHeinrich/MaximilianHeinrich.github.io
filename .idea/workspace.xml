@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/md/projects/Allianz.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/md/projects/BMW.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Credits/Credits.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Credits/Credits.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Legal/Legal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Legal/Legal.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/projects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/md/projects/GetMad.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/md/projects/JUtils.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/md/projects/Snippets.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/md/projects/URLShorter.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="526" />
+    <option name="cachedIndexableFilesCount" value="524" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -311,7 +303,8 @@
       <workItem from="1780841199868" duration="88000" />
       <workItem from="1780841347737" duration="30000" />
       <workItem from="1780847576978" duration="1511000" />
-      <workItem from="1780999719284" duration="706000" />
+      <workItem from="1780999719284" duration="847000" />
+      <workItem from="1782906674293" duration="55000" />
     </task>
     <servers />
   </component>
