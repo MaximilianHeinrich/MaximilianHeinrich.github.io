@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9761fbd3-a1f7-4c82-a0f1-e71101d3b52c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/md/loadProjectMd.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/md/projects/Allianz.en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/md/projects/BMW.en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+layout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/CommonPage.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/CommonPage.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Markdown.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Markdown.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ProjectCard/ProjectCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ProjectCard/ProjectCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/education.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/education.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/experience.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/experience.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/projects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/skills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/skills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/i18n/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/i18n/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/i18n/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/i18n/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/i18n/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/md/projects/Allianz.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/md/projects/Allianz.de.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/md/projects/BMW.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/md/projects/BMW.de.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/education/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/education/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/experience/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/[slug]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/resume/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/resume/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/skills/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/skills/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/skills/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/skills/[slug]/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +307,7 @@
       <workItem from="1780847576978" duration="1511000" />
       <workItem from="1780999719284" duration="706000" />
       <workItem from="1783328685946" duration="856000" />
-      <workItem from="1783358187196" duration="7065000" />
+      <workItem from="1783358187196" duration="7359000" />
     </task>
     <servers />
   </component>
