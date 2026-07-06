@@ -1,15 +1,11 @@
-import { register, init, locale, getLocaleFromNavigator } from 'svelte-i18n';
+import { register, init, locale, getLocaleFromNavigator, addMessages } from 'svelte-i18n';
 import { browser } from '$app/environment';
+import en from './en.json';
+import de from './de.json';
 
-// ----------------------
-// 1. Register messages
-// ----------------------
-register('en', () => import('./en.json'));
-register('de', () => import('./de.json'));
+addMessages('en', en);
+addMessages('de', de);
 
-// ----------------------
-// 2. Storage helpers
-// ----------------------
 function getStoredLocale(): string | null {
 	return browser ? localStorage.getItem('lang') : null;
 }
@@ -19,9 +15,6 @@ function setStoredLocale(value: string) {
 	localStorage.setItem('lang', value);
 }
 
-// ----------------------
-// 3. Detect locale (client only)
-// ----------------------
 function detectLocale(): string {
 	const stored = getStoredLocale();
 	if (stored) return stored;
@@ -32,24 +25,15 @@ function detectLocale(): string {
 	return 'en';
 }
 
-// ----------------------
-// 4. INIT (IMPORTANT: MUST BE STATIC)
-// ----------------------
 init({
 	fallbackLocale: 'en',
-	initialLocale: 'en' // 🚨 critical: never dynamic here
+	initialLocale: 'de'
 });
 
-// ----------------------
-// 5. Apply detected locale AFTER init (client only)
-// ----------------------
 if (browser) {
 	locale.set(detectLocale());
 }
 
-// ----------------------
-// 6. Persist locale changes
-// ----------------------
 locale.subscribe((value) => {
 	if (!browser) return;
 	if (value) setStoredLocale(value);
