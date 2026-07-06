@@ -62,4 +62,4 @@ export const items: Array<Experience> = [
 	// }
 ];
 
-export const title = 'Experience';
+export const title = 'nav.experience';

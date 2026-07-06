@@ -113,7 +113,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Search,
-		name: 'Ability to observe patterns in financial data',
+		name: 'skills.pattern-observation',
 		category: 'market-data-interpretation'
 	}),
 	defineSkill({
@@ -121,7 +121,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Brain,
-		name: 'Interest in translating data into insights',
+		name: 'skills.data-interpretation-insights',
 		category: 'market-data-interpretation'
 	}),
 	defineSkill({
@@ -158,7 +158,7 @@ export const items = [
 	})
 ] as const;
 
-export const title = 'Skillset';
+export const title = 'nav.skillset';
 
 export const getSkills = (
 	...slugs: Array<StringWithAutoComplete<(typeof items)[number]['slug']>>

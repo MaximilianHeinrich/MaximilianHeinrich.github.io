@@ -1,13 +1,18 @@
 <script>
-	import { data, title } from '@data/resume';
+	import { data } from '@data/resume';
 
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
 	import LegalLinks from '@components/Legal/Legal.svelte';
 	import Credits from '@components/Credits/Credits.svelte';
+	import TabTitle from '@components/TabTitle.svelte';
+
+	import { t } from 'svelte-i18n';
 </script>
 
-<CommonPage {title}>
+<TabTitle title={$t('nav.resume')} />
+
+<CommonPage title={$t('nav.resume')}>
 	<div class="resume">
 		{#if data}
 			<a href={data} download>

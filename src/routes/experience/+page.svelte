@@ -8,6 +8,8 @@
 	import LegalLinks from '@components/Legal/Legal.svelte';
 	import Credits from '@components/Credits/Credits.svelte';
 
+	import { t } from 'svelte-i18n';
+
 	let result: Array<Experience> = [...items];
 
 	const onSearch = (e: CustomEvent<{ search: string }>) => {
@@ -27,12 +29,12 @@
 	};
 </script>
 
-<SearchPage {title} on:search={onSearch}>
+<SearchPage title={$t('nav.experience')} on:search={onSearch}>
 	<div class="col items-center relative mt-10 flex-1">
 		{#if result.length === 0}
 			<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
 				<UIcon icon="i-carbon-development" classes="text-3.5em" />
-				<p class="font-300">Could not find anything...</p>
+				<p class="font-300">{$t("content.not-found")}</p>
 			</div>
 		{:else}
 			<div

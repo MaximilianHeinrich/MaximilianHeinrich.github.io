@@ -20,7 +20,7 @@
 	};
 </script>
 
-<SearchPage {title} on:search={onSearch}>
+<SearchPage title={$t('nav.skillset')} on:search={onSearch}>
 	{#if result.length === 0}
 
 		<div class="p-10 flex flex-col items-center gap-3 text-[var(--accent-text)] flex-1">

@@ -11,6 +11,8 @@
 	import { resolveAsset, isDark } from '$lib/data/assets';
 	import { base } from '$app/paths';
 
+	import { t } from 'svelte-i18n';
+
 	export let project: Project;
 	$: months = countMonths(project.period.from, project.period.to);
 	// $: period = `${months} month${months > 1 ? 's' : ''}`;
@@ -38,14 +40,14 @@
 	<div
 		class="row m-b-15px justify-between text-[var(--secondary-text)] text-0.9em font-italic font-300"
 	>
-		<p>{project.type}</p>
+		<p>{$t(project.type)}</p>
 		<p>{period}</p>
 	</div>
 	<div class="col sm:h-100px md:h-160px">
 		<p
 			class="text-[0.95em] text-[var(--secondary-text)] font-300 m-t-20px m-b-40px flex-1 line-clamp-3"
 		>
-			{project.shortDescription}
+			{$t(project.shortDescription)}
 		</p>
 	</div>
 	<div class="row justify-between text-0.8em font-400">

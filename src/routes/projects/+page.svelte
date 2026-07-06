@@ -12,6 +12,9 @@
 	import LegalLinks from '@components/Legal/Legal.svelte';
 	import Credits from '@components/Credits/Credits.svelte';
 
+	import { t } from 'svelte-i18n';
+	import TabTitle from '@components/TabTitle.svelte';
+
 	interface SkillFilter extends Skill {
 		isSelected?: boolean;
 	}
@@ -72,18 +75,18 @@
 	});
 </script>
 
-<SearchPage {title} on:search={onSearch}>
+<SearchPage title={$t('nav.projects')} on:search={onSearch}>
 	<div class="projects-filters">
 		{#each filters as tech}
 			<Chip active={tech.isSelected} classes={'text-0.8em'} on:click={() => onSelected(tech.slug)}
-				>{tech.name}</Chip
+				>{$t(tech.name)}</Chip
 			>
 		{/each}
 	</div>
 	{#if displayed.length === 0}
 		<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
 			<UIcon icon="i-carbon-cube" classes="text-3.5em" />
-			<p class="font-300">Could not find anything...</p>
+			<p class="font-300">{$t("content.not-found")}</p>
 		</div>
 	{:else}
 		<div class="projects-list mt-5">

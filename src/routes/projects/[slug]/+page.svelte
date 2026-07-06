@@ -15,6 +15,8 @@
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 	import Screenshot from '$lib/components/Screenshot/Screenshot.svelte';
 
+	import { t } from 'svelte-i18n';
+
 	export let data: { project?: Project };
 
 	const screenshots = data.project?.screenshots ?? [];
@@ -26,7 +28,7 @@
 			? screenshots[screenIndex]
 			: undefined;
 
-	$: computedTitle = data.project ? `${data.project.name} - ${title}` : title;
+	$: computedTitle = data.project ? `${data.project.name} - ${$t(data.project.name)}` : title;
 </script>
 
 <TabTitle title={computedTitle} />
@@ -42,9 +44,9 @@
 			<Banner img={resolveAsset(data.project.logo, $isDark)}>
 				<div class="col-center p-y-20">
 					<div class="text-0.9em">
-						<MainTitle>{data.project.name}</MainTitle>
+						<MainTitle>{$t(data.project.name)}</MainTitle>
 					</div>
-					<p class="font-300 text-center text-[var(--tertiary-text)] m-y-2">{data.project.type}</p>
+					<p class="font-300 text-center text-[var(--tertiary-text)] m-y-2">{$t(data.project.type)}</p>
 					<div class="w-75%">
 						<CardDivider />
 					</div>
@@ -70,7 +72,7 @@
 									size={15}
 									classes="mr-2"
 								/>
-								<span class="text-[0.9em]">{item.name}</span>
+								<span class="text-[0.9em]">{$t(item.name)}</span>
 							</Chip>
 						{/each}
 					</div>

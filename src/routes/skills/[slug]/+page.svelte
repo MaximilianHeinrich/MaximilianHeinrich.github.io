@@ -17,6 +17,8 @@
 	import Banner from '$lib/components/Banner/Banner.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 
+	import { t } from 'svelte-i18n'
+
 	type Related = {
 		display: string;
 		name: string;

@@ -1,4 +1,5 @@
 import { register, init, locale, getLocaleFromNavigator } from 'svelte-i18n';
+import { browser } from '$app/environment';
 
 register('en', () => import('./en.json'));
 register('de', () => import('./de.json'));
@@ -27,7 +28,7 @@ function detectLocale(): string {
 
 init({
 	fallbackLocale: 'en',
-	initialLocale: detectLocale()
+	initialLocale: browser ? detectLocale() : 'en'
 });
 
 locale.subscribe((value) => {

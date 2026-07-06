@@ -5,7 +5,7 @@
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 
-	import '$lib/i18n/index';
+	import '$lib/i18n';
 
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;

@@ -11,6 +11,8 @@
 
 	import { isDark, resolveAsset } from '$lib/data/assets';
 
+	import { t } from 'svelte-i18n';
+
 	let search = '';
 	let result: Array<Education> = items;
 
@@ -47,7 +49,7 @@
 	};
 </script>
 
-<SearchPage on:search={onSearch} {search} {title}>
+<SearchPage on:search={onSearch} {search} title={$t('nav.education')}>
 	<div class="mt-12 flex flex-col gap-7 w-full max-w-4xl mx-auto">
 
 		{#if result.length === 0}
@@ -89,17 +91,17 @@
 
 								<img
 									src={resolveAsset(education.logo, $isDark)}
-									alt={education.organization}
+									alt={$t(education.organization)}
 									class="h-10 w-10 rounded-md grayscale opacity-80 bg-white/5 p-1"
 								/>
 
 								<div class="flex flex-col gap-1">
 									<div class="text-[11px] tracking-[0.22em] uppercase text-[var(--accent-text)]">
-										{education.organization}
+										{$t(education.organization)}
 									</div>
 
 									<div class="text-[17px] font-light tracking-tight leading-snug">
-										{education.degree}
+										{$t(education.degree)}
 									</div>
 								</div>
 
@@ -107,7 +109,7 @@
 
 							<!-- right: location -->
 							<div class="text-[11px] text-[var(--accent-text)] font-light whitespace-nowrap pt-1">
-								{education.location}
+								{$t(education.location)}
 							</div>
 
 						</div>
@@ -128,8 +130,8 @@
 							</div>
 
 							<div class="flex justify-between py-0.5">
-								<span class="uppercase tracking-wide">Classification</span>
-								<span class="text-right">Academic Record</span>
+								<span class="uppercase tracking-wide">{$t("education.classification")}</span>
+								<span class="text-right">{$t(education.classification)}</span>
 							</div>
 
 						</div>
@@ -139,7 +141,7 @@
 							{#each education.subjects as subject}
 								<span
 									class="text-[11px] uppercase tracking-wide px-2.5 py-1 border border-[var(--border)] text-[var(--accent-text)] rounded-sm">
-									{subject}
+									{$t(subject)}
 								</span>
 							{/each}
 						</div>

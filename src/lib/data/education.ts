@@ -3,43 +3,46 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'A-Level',
-		description: '',
-		location: 'Königsbrunn, Germany',
+		degree: 'education.high-school.degree',
+		description: 'education.high-school.description',
+		location: 'education.high-school.location',
 		logo: Assets.GymKoe,
-		name: '',
-		organization: 'Gymnasium Königsbrunn',
+		name: 'education.high-school.name',
+		organization: 'education.high-school.organization',
 		period: { from: new Date(2027, 5) },
-		shortDescription: '',
+		shortDescription: 'education.high-school.shortDescription',
 		slug: 'a-level',
-		subjects: ['Computer Science', 'Math (e.A)', 'German (e.A)', 'English (e.A)', 'Economy and Law']
+		subjects: ['education.high-school.subjects'],
+		classification: 'education.classification-types.a-level'
 	},
 	{
-		degree: 'Certificate for Essential Career Skills for Investment Banking and Finance',
+		degree: 'education.nyif.degree',
 		description: '',
-		location: 'edx',
+		location: 'education.nyif.location',
 		logo: Assets.NYIF,
 		name: '',
-		organization: 'New York Institute of Finance',
+		organization: 'education.nyif.organization',
 		period: { from: new Date(2026, 4) },
 		shortDescription: '',
 		slug: 'nyif',
-		subjects: ['Investment Banking']
+		subjects: ['education.nyif.subjects'],
+		classification: 'education.classification-types.certification'
 	},
 	{
-		degree: 'AP® Microeconomics',
+		degree: 'education.mit.degree',
 		description: '',
-		location: 'edx',
+		location: 'education.mit.location',
 		logo: Assets.MIT,
 		name: '',
-		organization: 'MIT',
+		organization: 'education.mit.organization',
 		period: {
 			from: new Date(2026, 4),
 			expected: new Date(2026, 7)
 		},
 		shortDescription: '',
 		slug: 'macroeconomics',
-		subjects: ['Microeconomics']
+		subjects: ['education.mit.subjects'],
+		classification: 'education.classification-types.certification'
 	}
 ];
 
