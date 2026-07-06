@@ -1,27 +1,6 @@
 import Assets from './assets';
 import type { Skill, SkillCategory } from '../types';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
-import java from '../md/languages/Java.md?raw';
-import cpp from '../md/languages/C++.md?raw';
-import kotlin from '../md/languages/Kotlin.md?raw';
-import javascript from '../md/languages/JavaScript.md?raw';
-import spring from '../md/languages/Spring.md?raw';
-import ktor from '../md/languages/Ktor.md?raw';
-import psql from '../md/languages/PostgreSQL.md?raw';
-import mysql from '../md/languages/MySQL.md?raw';
-import mongodb from '../md/languages/MongoDB.md?raw';
-import redis from '../md/languages/Redis.md?raw';
-import json from '../md/languages/JSON.md?raw';
-import yaml from '../md/languages/Yaml.md?raw';
-import bash from '../md/tools/Bash.md?raw';
-import git from '../md/tools/Git.md?raw';
-import jenkins from '../md/tools/Jenkins.md?raw';
-import kubernetes from '../md/tools/Kubernetes.md?raw';
-import postman from '../md/tools/Postman.md?raw';
-import nmap from '../md/tools/NMap.md?raw';
-import linux from '../md/tools/Linux.md?raw';
-import maven from '../md/tools/Maven.md?raw';
-import gradle from '../md/tools/Gradle.md?raw';
 
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
@@ -54,7 +33,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.FileText,
-		name: 'Understanding of financial statements (P&L, balance sheet, cash flow)',
+		name: 'skills.financial-statements',
 		category: 'equity-analysis'
 	}),
 	defineSkill({
@@ -62,7 +41,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.BarChart,
-		name: 'Basic KPI interpretation (growth, margins, profitability)',
+		name: 'skills.kpi-interpretation',
 		category: 'equity-analysis'
 	}),
 	defineSkill({
@@ -70,7 +49,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Users,
-		name: 'Awareness of peer comparison concepts',
+		name: 'skills.peer-comparison',
 		category: 'equity-analysis'
 	}),
 	defineSkill({
@@ -78,7 +57,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Building,
-		name: 'Introduction to sector differences',
+		name: 'skills.sector-differences',
 		category: 'equity-analysis'
 	}),
 	defineSkill({
@@ -86,7 +65,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Coins,
-		name: 'Understanding of valuation basics (multiples conceptually)',
+		name: 'skills.valuation-basics',
 		category: 'valuation-investment-logic'
 	}),
 	defineSkill({
@@ -94,7 +73,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.HorizontalSliders,
-		name: 'Awareness of what drives company value',
+		name: 'skills.value-drivers',
 		category: 'valuation-investment-logic'
 	}),
 	defineSkill({
@@ -102,7 +81,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Calculator,
-		name: 'Introductory understanding of DCF logic',
+		name: 'skills.dcf-logic',
 		category: 'valuation-investment-logic'
 	}),
 	defineSkill({
@@ -110,7 +89,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Shuffle,
-		name: 'Thinking in terms of upside/downside scenarios',
+		name: 'skills.upside-downside-scenarios',
 		category: 'valuation-investment-logic'
 	}),
 	defineSkill({
@@ -118,7 +97,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Newspaper,
-		name: 'Awareness of market trends and news impact',
+		name: 'skills.market-trends-news-impact',
 		category: 'market-data-interpretation'
 	}),
 	defineSkill({
@@ -126,7 +105,7 @@ export const items = [
 		color: 'grey',
 		description: '',
 		logo: Assets.Scale,
-		name: 'Understanding relationship between price and fundamentals (basic)',
+		name: 'skills.price-fundamentals-relationship',
 		category: 'market-data-interpretation'
 	}),
 	defineSkill({

@@ -9,6 +9,10 @@
 
 	import { locale } from 'svelte-i18n';
 
+	import { t } from 'svelte-i18n';
+	import { fade } from 'svelte/transition';
+	import { switchLocaleSmooth } from '$lib/i18n/i18n-transition';
+
 	$: currentRoute = $page.url.pathname;
 
 	let expanded = false;
@@ -21,10 +25,26 @@
 		}
 	};
 
-    const toggleLang = () => {
-    	locale.set($locale === 'de' ? 'en' : 'de');
-    };
+	let phase: 'in' | 'out' = 'in';
+	let key = 0;
+
+    // const toggleLang = () => {
+    // 	locale.set($locale === 'de' ? 'en' : 'de');
+    // };
+		async function toggleLang() {
+			locale.set($locale === 'de' ? 'en' : 'de');
+			await switchLocaleSmooth((p) => (phase = p));
+			key += 1;
+	}
 </script>
+
+<div class:out={phase === 'out'}>
+	{#key key}
+		<div in:fade={{ duration: 200 }} out:fade={{ duration: 200 }}>
+			<slot />
+		</div>
+	{/key}
+</div>
 
 <div class="nav-menu">
 	<nav class="container flex flex-row items-center text-sm">
@@ -47,7 +67,7 @@
 		{#each items as item (item.title)}
 			<a href={`${base}${item.to}`} class="nav-menu-item !text-[var(--secondary-text)]">
 				<UIcon icon={item.icon} classes="text-1.3em" />
-				<span class="nav-menu-item-label">{item.title}</span>
+				<span class="nav-menu-item-label">{$t(item.title)}</span>
 			</a>
 		{/each}
 	</div>
@@ -113,7 +133,7 @@
 				on:click={() => toggleExpanded(false)}
 			>
 				<UIcon icon={item.icon} classes="text-1.3em" />
-				<span>{item.title}</span>
+				<span>{$t(item.title)}</span>
 			</a>
 		{/each}
 	</div>

@@ -10,6 +10,8 @@
 
 	import { isDark } from '$lib/data/assets';
 
+	import { t } from 'svelte-i18n';
+
 	let result = groupByCategory('');
 
 	const onSearch = (e: CustomEvent<{ search: string }>) => {
@@ -86,7 +88,7 @@
 									<div class="w-8 h-8 opacity-80 grayscale" />
 
 									<p class="text-[12px] tracking-wide text-[var(--tertiary-text)]">
-										{skill.name}
+										{$t(skill.name)}
 									</p>
 
 								</div>

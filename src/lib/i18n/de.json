@@ -1,6 +1,15 @@
 {
 	"nav": {
-		"home": "Start",
-		"projects": "Projekte"
+		"skillset": "Fähigkeiten",
+		"projects": "Projekte",
+		"experience": "Erfahrung",
+		"education": "Bildung",
+		"resume": "Lebenslauf"
+	},
+	"home": {
+		"description": "Ich bin ein Gymnasiast aus Bayern und beschäftige mich mit Finanzen, Wirtschaft und Kapitalmärkten. Ich enwickele dabei einen strukturierten, analytischen Ansatz zur Interpretation von Daten, zur Identifizierung wichtiger Werttreiber und zur Bildung von Anlageperspektiven. Großen Wert lege ich dabei auf kontinuierliches Lernen."
+	},
+	"skills": {
+		"financial-statements": "Grundlegendes Verständnis von Finanzberichten (GuV, Bilanz, Cashflow)"
 	}
 }

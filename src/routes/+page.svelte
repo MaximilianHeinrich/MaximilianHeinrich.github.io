@@ -10,6 +10,7 @@
 	import { getPlatfromIcon } from '$lib/utils';
 	import LegalLinks from '$lib/components/Legal/Legal.svelte';
 	import Credits from '@components/Credits/Credits.svelte';
+	import { t } from 'svelte-i18n';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
@@ -29,7 +30,7 @@
 	<div class="md:flex-1 gap-10px">
 		<MainTitle classes="md:text-left ">{name} {lastName},</MainTitle>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
-			{description}
+			{$t(description)}
 		</p>
 		<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
 			{#each links as link}
