@@ -22,11 +22,11 @@ function detectLocale(): string {
 	const navLang = getLocaleFromNavigator();
 	if (navLang?.startsWith('de')) return 'de';
 
-	return 'en';
+	return 'de';
 }
 
 init({
-	fallbackLocale: 'en',
+	fallbackLocale: 'de',
 	initialLocale: 'de'
 });
 
