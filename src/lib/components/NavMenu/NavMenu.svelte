@@ -86,16 +86,16 @@
 			</a>
 
 			<!-- Language -->
-			<button
-				class="bg-transparent text-1em border-none cursor-pointer hover:bg-[color:var(--main-hover)] text-[var(--secondary-text)] px-2"
-				on:click={toggleLang}
-			>
-				{#if $locale === 'de'}
-					<span>DE</span>
-				{:else}
-					<span>EN</span>
-				{/if}
-			</button>
+<!--			<button-->
+<!--				class="bg-transparent text-1em border-none cursor-pointer hover:bg-[color:var(&#45;&#45;main-hover)] text-[var(&#45;&#45;secondary-text)] px-2"-->
+<!--				on:click={toggleLang}-->
+<!--			>-->
+<!--				{#if $locale === 'de'}-->
+<!--					<span>DE</span>-->
+<!--				{:else}-->
+<!--					<span>EN</span>-->
+<!--				{/if}-->
+<!--			</button>-->
 
 			<!-- Theme -->
 			<button
