@@ -3,7 +3,7 @@ import { browser } from '$app/environment';
 import en from './en.json';
 import de from './de.json';
 
-// addMessages('en', en);
+addMessages('en', en);
 addMessages('de', de);
 
 function getStoredLocale(): string | null {
@@ -15,13 +15,17 @@ function setStoredLocale(value: string) {
 	localStorage.setItem('lang', value);
 }
 
+// function detectLocale(): string {
+// 	const stored = getStoredLocale();
+// 	if (stored) return stored;
+//
+// 	const navLang = getLocaleFromNavigator();
+// 	if (navLang?.startsWith('de')) return 'de';
+//
+// 	return 'de';
+// }
+
 function detectLocale(): string {
-	const stored = getStoredLocale();
-	if (stored) return stored;
-
-	const navLang = getLocaleFromNavigator();
-	if (navLang?.startsWith('de')) return 'de';
-
 	return 'de';
 }
 
