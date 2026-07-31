@@ -16,7 +16,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'email@maximilianheinrich.com'
+		link: 'kontakt@maximilianheinrich.com'
 	},
 	{
 		platform: Platform.Portfolio,

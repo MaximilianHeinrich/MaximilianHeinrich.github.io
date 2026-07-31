@@ -12,7 +12,7 @@
 		street: 'Lessingstraße 11',
 		city: '86343 Königsbrunn',
 		phone: '+49 8231 6093861',
-		email: 'email@maximilianheinrich.com',
+		email: 'kontakt@maximilianheinrich.com',
 		source: 'https://www.e-recht24.de'
 	};
 

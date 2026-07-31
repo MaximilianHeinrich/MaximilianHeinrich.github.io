@@ -1,7 +1,7 @@
 # Details
 
 ### Königsbrunn, Germany
-### +49 176 32147803 - email@maximilianheinrich.com
+### +49 176 32147803 - kontakt@maximilianheinrich.com
 
 ## Maximilian Andreas Heinrich, Java Backend Developer
 
