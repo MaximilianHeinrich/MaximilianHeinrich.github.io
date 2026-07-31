@@ -149,22 +149,22 @@
 		</a>
 
 		<!-- Language -->
-		<button
-			class="bg-transparent text-1em border-none cursor-pointer px-6 py-3 gap-2 row hover:bg-[color:var(--main-hover)] text-[var(--secondary-text)]"
-			on:click={() => {
-				toggleLang();
-				toggleExpanded(false);
-			}}
-		>
-			<UIcon icon="i-carbon-language" />
-			<span>
-				{#if $locale === 'de'}
-					English
-				{:else}
-					Deutsch
-				{/if}
-			</span>
-		</button>
+<!--		<button-->
+<!--			class="bg-transparent text-1em border-none cursor-pointer px-6 py-3 gap-2 row hover:bg-[color:var(&#45;&#45;main-hover)] text-[var(&#45;&#45;secondary-text)]"-->
+<!--			on:click={() => {-->
+<!--				toggleLang();-->
+<!--				toggleExpanded(false);-->
+<!--			}}-->
+<!--		>-->
+<!--			<UIcon icon="i-carbon-language" />-->
+<!--			<span>-->
+<!--				{#if $locale === 'de'}-->
+<!--					English-->
+<!--				{:else}-->
+<!--					Deutsch-->
+<!--				{/if}-->
+<!--			</span>-->
+<!--		</button>-->
 
 		<!-- Theme -->
 		<button
